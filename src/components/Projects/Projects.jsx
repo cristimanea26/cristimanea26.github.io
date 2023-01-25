@@ -21,7 +21,7 @@ const Projects = () => {
                         <h1>Web Development</h1>
                     </div>
                     <div className='fieldProjectList'>
-                        <Swiper className='fieldProjectSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, origin: 'left center', translate: ['-5%', 0, -200], rotate: [0, 100, 0]}, next: { origin: 'right center', translate: ['5%', 0, -200], rotate: [0, -100, 0]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
+                        <Swiper className='fieldProjectSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, origin: 'left center', translate: ['-5%', 0, -200], rotate: [0, 100, 0]}, next: {origin: 'right center', translate: ['5%', 0, -200], rotate: [0, -100, 0]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
                             {webDev.map((item, i) => {
                                 return (
                                     <SwiperSlide key={i} className='projectItem'>
@@ -38,7 +38,7 @@ const Projects = () => {
                         <h1>Design</h1>
                     </div>
                     <div className='fieldProjectList'>
-                        <Swiper className='fieldProjectSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, origin: 'left center', translate: ['-5%', 0, -200], rotate: [0, 100, 0]}, next: { origin: 'right center', translate: ['5%', 0, -200], rotate: [0, -100, 0]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
+                        <Swiper className='fieldProjectSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, origin: 'left center', translate: ['-5%', 0, -200], rotate: [0, 100, 0]}, next: {origin: 'right center', translate: ['5%', 0, -200], rotate: [0, -100, 0]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
                             {design.map((item, i) => {
                                 return (
                                     <SwiperSlide key={i} className='projectItem'>
@@ -55,7 +55,7 @@ const Projects = () => {
                         <h1>Game Development</h1>
                     </div>
                     <div className='fieldProjectList'>
-                        <Swiper className='fieldProjectSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, origin: 'left center', translate: ['-5%', 0, -200], rotate: [0, 100, 0]}, next: { origin: 'right center', translate: ['5%', 0, -200], rotate: [0, -100, 0]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
+                        <Swiper className='fieldProjectSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, origin: 'left center', translate: ['-5%', 0, -200], rotate: [0, 100, 0]}, next: {origin: 'right center', translate: ['5%', 0, -200], rotate: [0, -100, 0]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
                             {gameDev.map((item, i) => {
                                 return (
                                     <SwiperSlide key={i} className='projectItem'>
