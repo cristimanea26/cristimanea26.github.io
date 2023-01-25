@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Loader from './components/Loader/Loader.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Home from './components/Home/Home.jsx';
@@ -26,15 +26,15 @@ const App = () => {
     <div className='App'>
       { loading
       ? (<Loader />)
-      : (<HashRouter>
+      : (<BrowserRouter>
             <Navbar />
               <Routes>
                   <Route path='/' exact element={<Home/>}/>
-                  <Route path='#/projects' element={<Projects/>}/>
-                  <Route path='#/skills' element={<Skills/>}/>
-                  <Route path='#/contact' element={<Contact/>}/>
+                  <Route path='/projects' element={<Projects/>}/>
+                  <Route path='/skills' element={<Skills/>}/>
+                  <Route path='/contact' element={<Contact/>}/>
               </Routes>
-        </HashRouter>)
+        </BrowserRouter>)
       }
     </div>
   )
