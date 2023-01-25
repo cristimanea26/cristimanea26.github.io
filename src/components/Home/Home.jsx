@@ -3,9 +3,8 @@ import { motion as m } from 'framer-motion';
 import { fadeIn } from '../Animations.jsx';
 import { logo, education, work } from '../Data.jsx';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCreative, Pagination } from 'swiper';
+import { Pagination } from 'swiper';
 import 'swiper/css';
-import 'swiper/css/effect-creative';
 import 'swiper/css/pagination';
 import './Home.css';
 
@@ -31,7 +30,7 @@ const Home = () => {
                                 <h1>Education and Training</h1>
                             </div>
                             <div className='educationList'>
-                                <Swiper className='educationSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, translate: ['-125%', 0, -800], rotate: [0, 0, -90]}, next: {shadow: true, translate: ['125%', 0, -800], rotate: [0, 0, 90]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
+                                <Swiper className='educationSlider' modules={[Pagination]} spaceBetween={25} slidesPerView={1} pagination={{ clickable: true, dynamicBullets: true }}>
                                     {education.map((item, i) => {
                                         return (
                                             <SwiperSlide key={i} className={item.cName}>
@@ -52,7 +51,7 @@ const Home = () => {
                                 <h1>Work Experience</h1>
                             </div>
                             <div className='workList'>
-                                <Swiper className='workSlider' grabCursor={true} effect={'creative'} creativeEffect={{ prev: {shadow: true, translate: ['-125%', 0, -800], rotate: [0, 0, -90]}, next: {shadow: true, translate: ['125%', 0, -800], rotate: [0, 0, 90]} }} pagination={{ clickable: true, dynamicBullets: true }} modules={[EffectCreative, Pagination]}>
+                                <Swiper className='workSlider' modules={[Pagination]} spaceBetween={25} slidesPerView={1} pagination={{ clickable: true, dynamicBullets: true }}>
                                     {work.map((item, i) => {
                                         return (
                                             <SwiperSlide key={i} className={item.cName}>
