@@ -71,3 +71,18 @@
         opacity: 1;
     }
 }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .loader-inner {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
