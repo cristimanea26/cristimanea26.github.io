@@ -255,8 +255,8 @@ export const webTechs = [
         cName: 'cSkill'
     },
     {
-        title: 'BOOTSTRAP',
-        icon: <SiIcons.SiBootstrap/>,
+        title: 'TAILWIND CSS',
+        icon: <SiIcons.SiTailwindcss/>,
         experience: '2 year',
         cName: 'cSkill'
     },

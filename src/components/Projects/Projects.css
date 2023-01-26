@@ -92,12 +92,25 @@
     color: var(--color-f);
     font-family: 'Helvetica Regular';
     font-size: 2rem;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.projects .projectsContainer .projectsInner .fieldProjectSlider .projectItem .projectItemInfo:hover h1 {
+    -webkit-line-clamp: 2;
 }
 
 .projects .projectsContainer .projectsInner .fieldProjectSlider .projectItem .projectItemInfo p {
     color: var(--color-f);
     font-family: 'Helvetica Regular';
     font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     line-height: 1.5rem;
     transform: translateY(2.5rem);
     opacity: 0;
@@ -177,7 +190,7 @@
 
     .projects .projectsContainer {
         flex-flow: column wrap;
-        padding: 1.5rem 0.5rem;
+        padding: 1.5rem 0.5rem 2.5rem 0.5rem;
     }
 
     .projects .projectsContainer .projectsInner .fieldProjectList {
@@ -210,7 +223,7 @@
     }
 
     .projects .projectsContainer {
-        padding: 0.5rem 0;
+        padding: 0.5rem 0 2.5rem 0;
     }
 
     .projects .projectsContainer .projectsInner {
@@ -218,7 +231,7 @@
     }
 
     .projects .projectsContainer .projectsInner .fieldTitle {
-        margin: 0.5rem 0;
+        margin: 1.5rem 0 0 0;
     }
 
     .projects .projectsContainer .projectsInner .fieldTitle h1 {

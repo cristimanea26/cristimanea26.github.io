@@ -184,10 +184,11 @@
     
     .home .homeContainer .educationWork {
         flex-flow: column wrap;
+        margin: 1.5rem 0;
     }
 
     .home .homeContainer .educationWork .education {
-        margin: 0;
+        margin: 0 0 1rem 0;
     }
     
     .home .homeContainer .educationWork .education .educationList .cEducation,
