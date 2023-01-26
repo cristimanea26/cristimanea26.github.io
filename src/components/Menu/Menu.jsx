@@ -5,20 +5,20 @@ import './Menu.css';
 
 const Menu = () => {
 
-    const [sidebar, setSidebar] = useState(false);
-    const showSidebar = () => setSidebar(!sidebar);
+    const [menubar, setMenuBar] = useState(false);
+    const showMenuBar = () => setMenuBar(!menubar);
 
     return (
         <div className='menu'>
-            <div className={sidebar ? 'menuBars open' : 'menuBars'} onClick={showSidebar}>
+            <div className={menubar ? 'menuBars open' : 'menuBars'} onClick={showMenuBar}>
                 <div className='line'></div>
             </div>
-            <div className={sidebar ? 'navMenu active' : 'navMenu'}>
-                <ul className='navMenuItems'>
+            <div className={menubar  ? 'menuList active' : 'menuList'}>
+                <ul className='menuListItems'>
                     {menuData.map((item, i) => {
                         return (
                             <li key={i} className={item.cName}>
-                                <Link to={item.path} onClick={showSidebar}>
+                                <Link to={item.path} onClick={showMenuBar}>
                                     <span>{item.title}</span>
                                 </Link>
                             </li>

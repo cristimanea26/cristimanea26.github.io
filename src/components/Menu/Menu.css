@@ -75,7 +75,7 @@
 .menu .menuBars .line,
 .menu .menuBars .line::before,
 .menu .menuBars .line::after,
-.menu .navMenu {
+.menu .menuList {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -83,7 +83,7 @@
     transition: all 0.3s;
 }
 
-.menu .navMenu {
+.menu .menuList {
     position: absolute;
     top: -2rem;
     right: -2rem;
@@ -95,28 +95,28 @@
     z-index: 15;
 }
 
-.menu .navMenu.active {
+.menu .menuList.active {
     width: 15rem;
     opacity: 1;
 }
 
-.menu .navMenu .navMenuItems .cMenu {
+.menu .menuList .menuListItems .cMenu {
     display: flex;
     text-align: center;
     position: relative;
 }
 
-.menu .navMenu .navMenuItems .cMenu a {
+.menu .menuList .menuListItems .cMenu a {
     width: 100%;
     padding: 2rem 0;
     color: var(--color-f);
 }
 
-.menu .navMenu .navMenuItems .cMenu a:hover {
+.menu .menuList .menuListItems .cMenu a:hover {
     color: var(--color-c);
 }
 
-.menu .navMenu .navMenuItems .cMenu a::before {
+.menu .menuList .menuListItems .cMenu a::before {
 	left: 0;
     height: 97%;
 	border: 0.1rem solid var(--color-f);
@@ -124,13 +124,13 @@
 	border-right: 0;
 }
 
-.menu .navMenu .navMenuItems .cMenu a::after {
+.menu .menuList .menuListItems .cMenu a::after {
 	right: 0;
     height: 100%;
 }
 
-.menu .navMenu .navMenuItems .cMenu a::before, 
-.menu .navMenu .navMenuItems .cMenu a::after {
+.menu .menuList .menuListItems .cMenu a::before, 
+.menu .menuList .menuListItems .cMenu a::after {
     content: '';
 	position: absolute;
     top: 0;
@@ -138,16 +138,16 @@
     z-index: -5;
 }
 
-.menu .navMenu .navMenuItems .cMenu a:hover::after {
+.menu .menuList .menuListItems .cMenu a:hover::after {
     background-color: var(--color-f);
 }
 
-.menu .navMenu .navMenuItems .cMenu a:hover::before, 
-.menu .navMenu .navMenuItems .cMenu a:hover::after {
+.menu .menuList .menuListItems .cMenu a:hover::before, 
+.menu .menuList .menuListItems .cMenu a:hover::after {
 	width: 100%;
 }
 
-.menu .navMenu .navMenuItems .cMenu a span {
+.menu .menuList .menuListItems .cMenu a span {
     font-family: 'Helvetica Bold';
     font-size: 2.5rem;
     text-shadow: none;
@@ -161,19 +161,19 @@
         right: 2rem;
     }
 
-    .menu .navMenu {
+    .menu .menuList {
         padding: 7rem 0 0 0; 
     }
 
-    .menu .navMenu.active {
+    .menu .menuList.active {
         width: 11rem;
     }
 
-    .menu .navMenu .navMenuItems .cMenu a {
+    .menu .menuList .menuListItems .cMenu a {
         padding: 1rem 0;
     }
 
-    .menu .navMenu .navMenuItems .cMenu a span {
+    .menu .menuList .menuListItems .cMenu a span {
         font-size: 1.75rem;
     }
 }
@@ -212,19 +212,19 @@
         transform: rotateZ(45deg) scaleX(0.75) translate(-0.5rem, 0.35rem);
     }
 
-    .menu .navMenu {
+    .menu .menuList {
         padding: 4.5rem 0 0 0; 
     }
 
-    .menu .navMenu.active {
+    .menu .menuList.active {
         width: 8rem;
     }
 
-    .menu .navMenu .navMenuItems .cMenu a {
+    .menu .menuList .menuListItems .cMenu a {
         padding: 0.75rem 0;
     }
 
-    .menu .navMenu .navMenuItems .cMenu a span {
+    .menu .menuList .menuListItems .cMenu a span {
         font-size: 1.25rem;
     }
 }
@@ -234,11 +234,11 @@
         right: -1rem;
     }
     
-    .menu .navMenu {
+    .menu .menuList {
         background-color: var(--color-d);
     }
     
-    .menu .navMenu.active {
+    .menu .menuList.active {
         width: 100vw;
     }
 }
