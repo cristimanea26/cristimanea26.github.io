@@ -23,15 +23,15 @@ const App = () => {
     <div className='App'>
       { loading
       ? (<Loader />)
-      : (<>
+      : (<div className='content'>
             <Navbar />
             <Routes location={location} key={location.pathname}>
-                <Route path='/' exact element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/projects' element={<Projects/>}/>
                 <Route path='/skills' element={<Skills/>}/>
                 <Route path='/contact' element={<Contact/>}/>
             </Routes>
-          </>
+          </div>
         )
       }
     </div>

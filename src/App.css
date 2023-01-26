@@ -129,6 +129,13 @@ a:hover::before {
     right: 0;
 } */
 
+.App, .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 .App {
     background: rgb(247,37,133);
     background: linear-gradient(180deg, rgba(247,37,133,1) 0%, rgba(58,12,163,1) 50%, rgba(76,201,240,1) 100%);
