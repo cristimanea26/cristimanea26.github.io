@@ -23,22 +23,20 @@ const App = () => {
   },[]);
 
   return (
-    <BrowserRouter>
     <div className='App'>
       { loading
       ? (<Loader />)
-      : (<> 
+      : (<BrowserRouter>
             <Navbar />
             <Routes>
-                <Route path='/' exact element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/projects' element={<Projects/>}/>
                 <Route path='/skills' element={<Skills/>}/>
                 <Route path='/contact' element={<Contact/>}/>
             </Routes>
-        </>)
+        </BrowserRouter>)
       }
     </div>
-    </BrowserRouter>
   )
 }
 
