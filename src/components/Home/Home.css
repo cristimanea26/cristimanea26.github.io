@@ -165,15 +165,15 @@
         flex-flow: column wrap;
     }
 
+    .home .homeLogo {
+        padding: 2rem 0.5rem;
+    }
+
     .home .homeContainer {
         align-items: center;
-    }
-
-    .home .homeLogo,
-    .home .homeContainer {
         padding: 1.5rem 0.5rem;
     }
-
+    
     .home .homeLogo img {
         width: 20rem;
     }
@@ -203,7 +203,7 @@
     }
 
     .home .homeLogo {
-        padding: 1rem;
+        padding: 1.75rem 0.5rem;
     }
 
     .home .homeContainer {

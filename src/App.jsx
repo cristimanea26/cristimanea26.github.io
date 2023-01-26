@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Loader from './components/Loader/Loader.jsx';
-import Navbar from './components/Navbar/Navbar.jsx';
+import Menu from './components/Menu/Menu.jsx';
 import Home from './components/Home/Home.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import Skills from './components/Skills/Skills.jsx';
@@ -24,7 +24,7 @@ const App = () => {
       { loading
       ? (<Loader />)
       : (<div className='content'>
-            <Navbar />
+            <Menu />
             <Routes location={location} key={location.pathname}>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/projects' element={<Projects/>}/>

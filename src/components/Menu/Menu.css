@@ -1,11 +1,11 @@
-.navbar {
+.menu {
     position: fixed;
     top: 2rem;
     right: 2rem;
     z-index: 20;
 }
 
-.navbar .menuBars {
+.menu .menuBars {
     cursor: pointer;
     position: absolute;
     width: 3rem;
@@ -15,7 +15,7 @@
     z-index: 25;
 }
 
-.navbar .menuBars .line {
+.menu .menuBars .line {
     position: absolute;
     top: 1.25rem;
     width: 3rem;
@@ -25,7 +25,7 @@
     box-shadow: 0 0 15px rgba(25, 25, 25, 0.25);
 }
 
-.navbar .menuBars .line::before {
+.menu .menuBars .line::before {
     content: '';
     position: absolute;
     top: -1rem;
@@ -36,7 +36,7 @@
     box-shadow: 0 0 15px rgba(25, 25, 25, 0.25);
 }
 
-.navbar .menuBars .line::after {
+.menu .menuBars .line::after {
     content: '';
     position: absolute;
     top: 1rem;
@@ -47,35 +47,35 @@
     box-shadow: 0 0 15px rgba(25, 25, 25, 0.25);
 }
 
-.navbar .menuBars:hover .line,
-.navbar .menuBars:hover .line::before,
-.navbar .menuBars:hover .line::after {
+.menu .menuBars:hover .line,
+.menu .menuBars:hover .line::before,
+.menu .menuBars:hover .line::after {
     background-color: var(--color-c);
 }
 
-.navbar .menuBars.open .line,
-.navbar .menuBars.open .line::before,
-.navbar .menuBars.open .line::after {
+.menu .menuBars.open .line,
+.menu .menuBars.open .line::before,
+.menu .menuBars.open .line::after {
     border-radius: 0;
     box-shadow: none;
 }
 
-.navbar .menuBars.open .line {
+.menu .menuBars.open .line {
     transform: rotateZ(-180deg);
 }
 
-.navbar .menuBars.open .line::before {
+.menu .menuBars.open .line::before {
     transform: rotateZ(-45deg) scaleX(0.75) translate(-1rem, -0.25rem);
 }
 
-.navbar .menuBars.open .line::after {
+.menu .menuBars.open .line::after {
     transform: rotateZ(45deg) scaleX(0.75) translate(-1rem, 0.25rem);
 }
 
-.navbar .menuBars .line,
-.navbar .menuBars .line::before,
-.navbar .menuBars .line::after,
-.navbar .navMenu {
+.menu .menuBars .line,
+.menu .menuBars .line::before,
+.menu .menuBars .line::after,
+.menu .navMenu {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -83,7 +83,7 @@
     transition: all 0.3s;
 }
 
-.navbar .navMenu {
+.menu .navMenu {
     position: absolute;
     top: -2rem;
     right: -2rem;
@@ -95,28 +95,28 @@
     z-index: 15;
 }
 
-.navbar .navMenu.active {
+.menu .navMenu.active {
     width: 15rem;
     opacity: 1;
 }
 
-.navbar .navMenu .navMenuItems .cMenu {
+.menu .navMenu .navMenuItems .cMenu {
     display: flex;
     text-align: center;
     position: relative;
 }
 
-.navbar .navMenu .navMenuItems .cMenu a {
+.menu .navMenu .navMenuItems .cMenu a {
     width: 100%;
     padding: 2rem 0;
     color: var(--color-f);
 }
 
-.navbar .navMenu .navMenuItems .cMenu a:hover {
+.menu .navMenu .navMenuItems .cMenu a:hover {
     color: var(--color-c);
 }
 
-.navbar .navMenu .navMenuItems .cMenu a::before {
+.menu .navMenu .navMenuItems .cMenu a::before {
 	left: 0;
     height: 97%;
 	border: 0.1rem solid var(--color-f);
@@ -124,13 +124,13 @@
 	border-right: 0;
 }
 
-.navbar .navMenu .navMenuItems .cMenu a::after {
+.menu .navMenu .navMenuItems .cMenu a::after {
 	right: 0;
     height: 100%;
 }
 
-.navbar .navMenu .navMenuItems .cMenu a::before, 
-.navbar .navMenu .navMenuItems .cMenu a::after {
+.menu .navMenu .navMenuItems .cMenu a::before, 
+.menu .navMenu .navMenuItems .cMenu a::after {
     content: '';
 	position: absolute;
     top: 0;
@@ -138,16 +138,16 @@
     z-index: -5;
 }
 
-.navbar .navMenu .navMenuItems .cMenu a:hover::after {
+.menu .navMenu .navMenuItems .cMenu a:hover::after {
     background-color: var(--color-f);
 }
 
-.navbar .navMenu .navMenuItems .cMenu a:hover::before, 
-.navbar .navMenu .navMenuItems .cMenu a:hover::after {
+.menu .navMenu .navMenuItems .cMenu a:hover::before, 
+.menu .navMenu .navMenuItems .cMenu a:hover::after {
 	width: 100%;
 }
 
-.navbar .navMenu .navMenuItems .cMenu a span {
+.menu .navMenu .navMenuItems .cMenu a span {
     font-family: 'Helvetica Bold';
     font-size: 2.5rem;
     text-shadow: none;
@@ -156,89 +156,89 @@
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1366px) {
-    .navbar .menuBars {
+    .menu .menuBars {
         top: 1rem;
         right: 2rem;
     }
 
-    .navbar .navMenu {
+    .menu .navMenu {
         padding: 7rem 0 0 0; 
     }
 
-    .navbar .navMenu.active {
+    .menu .navMenu.active {
         width: 11rem;
     }
 
-    .navbar .navMenu .navMenuItems .cMenu a {
+    .menu .navMenu .navMenuItems .cMenu a {
         padding: 1rem 0;
     }
 
-    .navbar .navMenu .navMenuItems .cMenu a span {
+    .menu .navMenu .navMenuItems .cMenu a span {
         font-size: 1.75rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .navbar .menuBars {
+    .menu .menuBars {
         top: 0;
         right: 1rem;
         width: 2rem;
         height: 2rem;
     }
 
-    .navbar .menuBars .line {
+    .menu .menuBars .line {
         top: 0.9rem;
         width: 2rem;
         height: 0.25rem;
     }
 
-    .navbar .menuBars .line::before {
+    .menu .menuBars .line::before {
         top: -0.5rem;
         width: 2rem;
         height: 0.25rem;
     }
 
-    .navbar .menuBars .line::after {
+    .menu .menuBars .line::after {
         top: 0.5rem;
         width: 2rem;
         height: 0.25rem;
     }
 
-    .navbar .menuBars.open .line::before {
+    .menu .menuBars.open .line::before {
         transform: rotateZ(-45deg) scaleX(0.75) translate(-0.5rem, -0.35rem);
     }
     
-    .navbar .menuBars.open .line::after {
+    .menu .menuBars.open .line::after {
         transform: rotateZ(45deg) scaleX(0.75) translate(-0.5rem, 0.35rem);
     }
 
-    .navbar .navMenu {
+    .menu .navMenu {
         padding: 4.5rem 0 0 0; 
     }
 
-    .navbar .navMenu.active {
+    .menu .navMenu.active {
         width: 8rem;
     }
 
-    .navbar .navMenu .navMenuItems .cMenu a {
+    .menu .navMenu .navMenuItems .cMenu a {
         padding: 0.75rem 0;
     }
 
-    .navbar .navMenu .navMenuItems .cMenu a span {
+    .menu .navMenu .navMenuItems .cMenu a span {
         font-size: 1.25rem;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .navbar .menuBars {
+    .menu .menuBars {
         right: -1rem;
     }
     
-    .navbar .navMenu {
+    .menu .navMenu {
         background-color: var(--color-d);
     }
     
-    .navbar .navMenu.active {
+    .menu .navMenu.active {
         width: 100vw;
     }
 }

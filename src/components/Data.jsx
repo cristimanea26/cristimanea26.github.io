@@ -23,7 +23,7 @@ import tla from '../assets/images/gameDev/tla.jpg';
 import bd from '../assets/images/gameDev/bd.png';
 import md from '../assets/images/gameDev/md.png';
 
-export const sidebarData = [
+export const menuData = [
     {
       title: 'Home',
       path: '/',
