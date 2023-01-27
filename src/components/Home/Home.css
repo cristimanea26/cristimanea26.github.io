@@ -218,6 +218,8 @@
     .home .homeContainer .educationWork .work {
         width: 27rem;
     }
+
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -233,14 +235,6 @@
         font-size: 1.5rem;
     }
 
-    .home .homeContainer .about .aboutInner p {
-        font-size: 0.85rem;
-    }
-
-    .home .homeContainer .about .aboutInner p span {
-        font-size: 1rem;
-    }
-
     .home .homeContainer .about .aboutInner a {
         width: 7rem;
     }
@@ -249,10 +243,10 @@
     .home .homeContainer .educationWork .work {
         width: 19rem;
     }
-
+    
     .home .homeContainer .educationWork .education .educationTitle h1,
     .home .homeContainer .educationWork .work .workTitle h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .home .homeContainer .educationWork .education .educationList .cEducation,

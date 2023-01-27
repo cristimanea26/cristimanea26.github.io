@@ -234,10 +234,6 @@
         width: 23rem;
     }
     
-    .projects .projectsContainer .projectsInner .fieldTitle h1 {
-        font-size: 1.5rem;
-    }
-
     .projects .projectsContainer .projectsInner .fieldProjectSlider .projectItem {
         height: 23rem;
     }
@@ -251,5 +247,9 @@
     .projects .projectsContainer .projectsInner {
         width: 18rem;
         margin: 0;
+    }
+
+    .projects .projectsContainer .projectsInner .fieldTitle h1 {
+        font-size: 2rem;
     }
 }
