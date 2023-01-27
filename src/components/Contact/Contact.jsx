@@ -22,7 +22,7 @@ const Contact = () => {
     };
 
     return (
-        <m.div className='contact' variants={fadeIn} initial='hidden' animate='show'>
+        <m.div className='contact'>
             <m.div className='contactTitle' variants={fadeIn('down', 'tween', 0.75, 1)} initial='hidden' animate='show'>
                 <h1>Contact Me</h1>
                 <h3>Get in touch</h3>

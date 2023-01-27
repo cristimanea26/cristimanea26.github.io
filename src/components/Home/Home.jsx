@@ -10,7 +10,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <m.div className='home' variants={fadeIn} initial='hidden' animate='show'>
+        <m.div className='home'>
                 <m.div className='homeLogo' variants={fadeIn('right', 'tween', 0.75, 1)} initial='hidden' animate='show'>
                     <img alt={logo[0].title} src={logo[0].icon}/>
                 </m.div>

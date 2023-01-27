@@ -118,7 +118,7 @@
 
 .menu .menuList .menuListItems .cMenu a::before {
 	left: 0;
-    height: 97%;
+    height: 99%;
 	border: 0.1rem solid var(--color-f);
 	border-left: 0;
 	border-right: 0;
@@ -173,6 +173,10 @@
         padding: 1rem 0;
     }
 
+    .menu .menuList .menuListItems .cMenu a::before {
+        height: 98%;
+    }
+
     .menu .menuList .menuListItems .cMenu a span {
         font-size: 1.75rem;
     }
@@ -222,6 +226,10 @@
 
     .menu .menuList .menuListItems .cMenu a {
         padding: 0.75rem 0;
+    }
+
+    .menu .menuList .menuListItems .cMenu a::before {
+        height: 97%;
     }
 
     .menu .menuList .menuListItems .cMenu a span {

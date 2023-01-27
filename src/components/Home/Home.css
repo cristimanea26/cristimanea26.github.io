@@ -69,7 +69,7 @@
     background-color: var(--color-aa);
     border-radius: 0.5rem;
     padding: 1rem;
-    margin: 1rem 0;
+    margin: 0.5rem 0 1rem 0;
 }
 
 .home .homeContainer .about .aboutInner a:hover {

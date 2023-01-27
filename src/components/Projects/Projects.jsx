@@ -11,7 +11,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <m.div className='projects' variants={fadeIn} initial='hidden' animate='show'>
+        <m.div className='projects'>
             <m.div className='projectsTitle' variants={fadeIn('down', 'tween', 0.75, 1)} initial='hidden' animate='show'>
                 <h1>My personal projects</h1>
             </m.div>

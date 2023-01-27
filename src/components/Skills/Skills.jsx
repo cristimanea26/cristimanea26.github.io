@@ -6,7 +6,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <m.div className='skills' variants={fadeIn} initial='hidden' animate='show'>
+        <m.div className='skills'>
             <m.div className='skillsTitle' variants={fadeIn('down', 'tween', 0.75, 1)} initial='hidden' animate='show'>
                 <h1>My skills</h1>
                 <h3>These are the technologies that I've worked with</h3>

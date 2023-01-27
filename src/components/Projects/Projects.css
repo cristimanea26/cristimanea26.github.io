@@ -193,6 +193,10 @@
         padding: 1.5rem 0.5rem 2.5rem 0.5rem;
     }
 
+    .projects .projectsContainer .projectsInner .fieldTitle {
+        margin: 1.5rem 0 0 0;
+    }
+
     .projects .projectsContainer .projectsInner .fieldProjectList {
         margin: 0;
     }
@@ -229,11 +233,7 @@
     .projects .projectsContainer .projectsInner {
         width: 23rem;
     }
-
-    .projects .projectsContainer .projectsInner .fieldTitle {
-        margin: 1.5rem 0 0 0;
-    }
-
+    
     .projects .projectsContainer .projectsInner .fieldTitle h1 {
         font-size: 1.5rem;
     }
