@@ -1,6 +1,6 @@
 <h1>Personal Portfolio</h1>
 <p>My personal portfolio which features the most recent projects I worked on as well as my resume and technical skills.<br>
-The website is live <a href="https://cristimanea26.github.io/" target="_blank" rel="nofollow">here.</a></p>
+The website is live <a href="https://cristimanea26.github.io/" target="blank" rel="nofollow">here.</a></p>
 
 <h2>Sections</h2>
 <p><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔️</g-emoji> Home<br>
@@ -10,9 +10,11 @@ The website is live <a href="https://cristimanea26.github.io/" target="_blank" r
 
 <h2>Tools Used</h2>
 <ul>
-  <li><a href="https://code.visualstudio.com" target="_blank" rel="nofollow"><b>Visual Studio Code</b></a></li>
-  <li><a href="https://reactjs.org" target="_blank" rel="nofollow"><b>ReactJS</b></a></li>
-  <li><a href="https://vitejs.dev" target="_blank" rel="nofollow"><b>ViteJS</b></a></li>
-  <li><a href="https://www.framer.com/motion/" target="_blank" rel="nofollow"><b>Framer Motion</b></a></li>
-  <li><a href="https://create-react-app.dev/docs/deployment/#github-pages" target="_blank" rel="nofollow"><b>GitHub Pages</b></a></li>
+  <li><a href="https://code.visualstudio.com/" target="blank" rel="nofollow"><b>Visual Studio Code</b></a></li>
+  <li><a href="https://reactjs.org/" target="blank" rel="nofollow"><b>ReactJS</b></a></li>
+  <li><a href="https://vitejs.dev/" target="blank" rel="nofollow"><b>ViteJS</b></a></li>
+  <li><a href="https://react-icons.github.io/react-icons" target="blank" rel="nofollow"><b>React Icons</b></a></li>
+  <li><a href="https://swiperjs.com/" target="blank" rel="nofollow"><b>Swper</b></a></li>
+  <li><a href="https://www.framer.com/motion/" target="blank" rel="nofollow"><b>Framer Motion</b></a></li>
+  <li><a href="https://vitejs.dev/guide/static-deploy.html" target="blank" rel="nofollow"><b>GitHub Pages</b></a></li>
 </ul>
