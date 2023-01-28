@@ -96,32 +96,30 @@
 }
 
 .menu .menuList.active {
+    position: relative;
     width: 15rem;
     opacity: 1;
 }
 
-.menu .menuList .menuListItems .cMenu {
-    display: flex;
-    text-align: center;
-    position: relative;
-}
-
 .menu .menuList .menuListItems .cMenu a {
-    width: 100%;
+    display: block;
+    text-align: center;
     padding: 2rem 0;
-    color: var(--color-f);
 }
 
 .menu .menuList .menuListItems .cMenu a:hover {
-    color: var(--color-c);
     box-shadow: inset 0 0 0 5rem var(--color-f);
 }
 
 .menu .menuList .menuListItems .cMenu a span {
+    color: var(--color-f);
     font-family: 'Helvetica Bold';
     font-size: 2.5rem;
     text-shadow: none;
-    z-index: 10;
+}
+
+.menu .menuList .menuListItems .cMenu a:hover span {
+    color: var(--color-c);
 }
 
 /*MEDIA QUERIES*/
