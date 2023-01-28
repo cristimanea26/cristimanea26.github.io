@@ -10,7 +10,7 @@ The website is live <a href="https://cristimanea26.github.io/" target="_blank" r
 
 <h2>Tools Used</h2>
 <ul>
-  <li><a href="https://code.visualstudio.com/" target="_blank"><b>Visual Studio Code</b></a></li>
+  <li><a href="https://code.visualstudio.com/" target="_blank" rel="nofollow"><b>Visual Studio Code</b></a></li>
   <li><a href="https://reactjs.org/" target="_blank" rel="nofollow"><b>ReactJS</b></a></li>
   <li><a href="https://vitejs.dev/" target="_blank" rel="nofollow"><b>ViteJS</b></a></li>
   <li><a href="https://react-icons.github.io/react-icons" target="_blank" rel="nofollow"><b>React Icons</b></a></li>
