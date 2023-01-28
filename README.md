@@ -16,5 +16,7 @@ The website is live <a href="https://cristimanea26.github.io/" target="_blank" r
   <li><a href="https://react-icons.github.io/react-icons" target="_blank" rel="nofollow"><b>React Icons</b></a></li>
   <li><a href="https://swiperjs.com/" target="_blank" rel="nofollow"><b>Swiper</b></a></li>
   <li><a href="https://www.framer.com/motion/" target="_blank" rel="nofollow"><b>Framer Motion</b></a></li>
+  <li><a href="https://www.emailjs.com/" target="_blank" rel="nofollow"><b>EmailJS</b></a></li>
+  <li><a href="https://www.npmjs.com/package/react-ga" target="_blank" rel="nofollow"><b>React GA</b></a></li>
   <li><a href="https://vitejs.dev/guide/static-deploy.html" target="_blank" rel="nofollow"><b>GitHub Pages</b></a></li>
 </ul>
