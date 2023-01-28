@@ -142,7 +142,11 @@
     .menu .menuList .menuListItems .cMenu a {
         padding: 1rem 0;
     }
-    
+
+    .menu .menuList .menuListItems .cMenu a:hover {
+        box-shadow: inset 0 0 0 2.5rem var(--color-f);
+    }
+
     .menu .menuList .menuListItems .cMenu a span {
         font-size: 1.75rem;
     }
@@ -192,6 +196,10 @@
 
     .menu .menuList .menuListItems .cMenu a {
         padding: 0.75rem 0;
+    }
+
+    .menu .menuList .menuListItems .cMenu a:hover {
+        box-shadow: inset 0 0 0 2rem var(--color-f);
     }
     
     .menu .menuList .menuListItems .cMenu a span {
