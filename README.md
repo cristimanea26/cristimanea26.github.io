@@ -10,10 +10,9 @@ The website is live <a href="https://cristimanea26.github.io/" target="_blank" r
 
 <h2>Tools Used</h2>
 <ul>
-  <li><a href="https://code.visualstudio.com" rel="nofollow"><b>Visual Studio Code</b></a></li>
-  <li><a href="https://reactjs.org" rel="nofollow"><b>ReactJS</b></a></li>
-  <li><a href="https://vitejs.dev" rel="nofollow"><b>ViteJS</b></a></li>
-  <li><a href="https://www.framer.com/motion/" rel="nofollow"><b>Framer Motion</b></a></li>
-  <li><a href="https://create-react-app.dev/docs/deployment/#github-pages" rel="nofollow"><b>GitHub Pages</b></a></li>
+  <li><a href="https://code.visualstudio.com" target="_blank" rel="nofollow"><b>Visual Studio Code</b></a></li>
+  <li><a href="https://reactjs.org" target="_blank" rel="nofollow"><b>ReactJS</b></a></li>
+  <li><a href="https://vitejs.dev" target="_blank" rel="nofollow"><b>ViteJS</b></a></li>
+  <li><a href="https://www.framer.com/motion/" target="_blank" rel="nofollow"><b>Framer Motion</b></a></li>
+  <li><a href="https://create-react-app.dev/docs/deployment/#github-pages" target="_blank" rel="nofollow"><b>GitHub Pages</b></a></li>
 </ul>
-
