@@ -96,20 +96,18 @@
 }
 
 .menu .menuList.active {
-    position: relative;
     width: 15rem;
     opacity: 1;
 }
 
-.menu .menuList .menuListItems {
-    width: 100%;
+.menu .menuList .menuListItems .cMenu {
+    display: flex;
+    position: relative;
+    text-align: center;
 }
 
 .menu .menuList .menuListItems .cMenu a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 100%;
     padding: 2rem 0;
 }
 
