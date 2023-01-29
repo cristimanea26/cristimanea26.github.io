@@ -101,6 +101,11 @@
     opacity: 1;
 }
 
+.menu .menuList .menuListItems {
+    position: relative;
+    z-index: 10;
+}
+
 .menu .menuList .menuListItems .cMenu a {
     display: block;
     text-align: center;
