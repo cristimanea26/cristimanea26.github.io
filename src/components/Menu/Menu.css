@@ -100,14 +100,9 @@
     opacity: 1;
 }
 
-.menu .menuList .menuListItems .cMenu {
-    display: flex;
-    position: relative;
-    text-align: center;
-}
-
 .menu .menuList .menuListItems .cMenu a {
-    width: 100%;
+    display: block;
+    text-align: center;
     padding: 2rem 0;
 }
 
