@@ -101,16 +101,14 @@
     opacity: 1;
 }
 
-.menu .menuList .menuListItems .cMenu {
-    display: flex;
-    flex-flow: column wrap;
+.menu .menuList .menuListItems {
     width: 100%;
-    position: relative;
-    z-index: 10;
 }
 
 .menu .menuList .menuListItems .cMenu a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 2rem 0;
 }
