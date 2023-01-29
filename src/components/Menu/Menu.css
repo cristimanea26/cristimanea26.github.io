@@ -101,9 +101,12 @@
     opacity: 1;
 }
 
-.menu .menuList .menuListItems {
+.menu .menuList .menuListItems .cMenu {
     display: flex;
     flex-flow: column wrap;
+    width: 100%;
+    position: relative;
+    z-index: 10;
 }
 
 .menu .menuList .menuListItems .cMenu a {
