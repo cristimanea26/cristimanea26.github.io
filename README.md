@@ -3,12 +3,12 @@
 <p dir="auto">The website is live <a href="https://cristimanea26.github.io/" rel="nofollow">here</a>.</p>
 
 <h2>Sections</h2>
-<ul dir="auto">
+<ol dir="auto">
   <li><b>Home</b></li>
   <li><b>Projects</b></li>
   <li><b>Skills</b></li>
   <li><b>Contact</b></li>
-</ul>
+</ol>
 
 <h2>Tools Used</h2>
 <ul dir="auto">
