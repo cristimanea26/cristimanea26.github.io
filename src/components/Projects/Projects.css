@@ -93,6 +93,7 @@
     font-family: 'Helvetica Regular';
     font-size: 2rem;
     text-align: center;
+    width: 100%;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;

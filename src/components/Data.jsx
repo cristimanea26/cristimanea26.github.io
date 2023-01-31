@@ -25,7 +25,7 @@ import md from '../assets/images/gameDev/md.png';
 
 export const menuData = [
     {
-      title: 'Home',
+      title: 'About',
       path: '/',
       cName: 'cMenu'
     },

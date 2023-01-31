@@ -4,7 +4,7 @@
 
 <h2>Sections</h2>
 <ul dir="auto">
-  <li><b>Home</b></li>
+  <li><b>About</b></li>
   <li><b>Projects</b></li>
   <li><b>Skills</b></li>
   <li><b>Contact</b></li>

@@ -148,7 +148,7 @@
 
     .contact .contactContainer {
         flex-flow: column wrap;
-        padding: 2rem 0.5rem;
+        padding: 2rem 0.5rem 2.5rem 0.5rem;
     }
 
     .contact .contactContainer .contactOptions {

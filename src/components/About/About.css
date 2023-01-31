@@ -1,4 +1,4 @@
-.home {
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,57 +9,57 @@
     z-index: 5;
 }
 
-.home .homeLogo,
-.home .homeContainer {
+.about .aboutLogo,
+.about .aboutContainer {
     padding: 2.5rem 0.5rem;
 }
 
-.home .homeLogo {
+.about .aboutLogo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.home .homeLogo img {
+.about .aboutLogo img {
     width: 25rem;
     border-radius: 0.5rem;
     box-shadow: 0 0 15px rgba(25, 25, 25, 0.25);
 }
 
-.home .homeContainer {
+.about .aboutContainer {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-flow: column wrap;
 }
 
-.home .homeContainer .about {
+.about .aboutContainer .aboutMe {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-flow: column wrap;
 }
 
-.home .homeContainer .about .aboutTitle h1 {
+.about .aboutContainer .aboutMe .aboutTitle h1 {
     color: var(--color-f);
     font-family: 'OleoScript Regular';
     font-size: 2.5rem;
 }
 
-.home .homeContainer .about .aboutInner p {
+.about .aboutContainer .aboutMe .aboutInner p {
     color: var(--color-f);
     font-family: 'Helvetica Regular';
     font-size: 1rem;
     padding: 1rem 0;
 }
 
-.home .homeContainer .about .aboutInner p span {
+.about .aboutContainer .aboutMe .aboutInner p span {
     font-family: 'OleoScript Regular';
     font-size: 1.5rem;
 }
 
-.home .homeContainer .about .aboutInner a {
+.about .aboutContainer .aboutMe .aboutInner a {
     display: block;
     text-align: center;
     width: 10rem;
@@ -72,40 +72,40 @@
     margin: 0.5rem 0 1rem 0;
 }
 
-.home .homeContainer .about .aboutInner a:hover {
+.about .aboutContainer .aboutMe .aboutInner a:hover {
     box-shadow: inset 0 0 0 2.5rem var(--color-ee);
 }
 
-.home .homeContainer .educationWork {
+.about .aboutContainer .educationWork {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.home .homeContainer .educationWork .education {
+.about .aboutContainer .educationWork .education {
     margin: 0 2.5rem 0 0;
 }
 
-.home .homeContainer .educationWork .education,
-.home .homeContainer .educationWork .work {
+.about .aboutContainer .educationWork .education,
+.about .aboutContainer .educationWork .work {
     width: 35rem;
 }
 
-.home .homeContainer .educationWork .education .educationTitle,
-.home .homeContainer .educationWork .work .workTitle {
+.about .aboutContainer .educationWork .education .educationTitle,
+.about .aboutContainer .educationWork .work .workTitle {
     text-align: left;
 }
 
-.home .homeContainer .educationWork .education .educationTitle h1,
-.home .homeContainer .educationWork .work .workTitle h1 {
+.about .aboutContainer .educationWork .education .educationTitle h1,
+.about .aboutContainer .educationWork .work .workTitle h1 {
     color: var(--color-f);
     font-family: 'OleoScript Regular';
     font-size: 2.5rem;
 }
 
-.home .homeContainer .educationWork .education .educationList .cEducation,
-.home .homeContainer .educationWork .work .workList .cWork {
+.about .aboutContainer .educationWork .education .educationList .cEducation,
+.about .aboutContainer .educationWork .work .workList .cWork {
     display: flex;
     justify-content: start;
     align-items: start;
@@ -117,8 +117,8 @@
     margin: 1rem 0 2rem 0;
 }
 
-.home .homeContainer .educationWork .education .educationList .cEducation svg,
-.home .homeContainer .educationWork .work .workList .cWork svg {
+.about .aboutContainer .educationWork .education .educationList .cEducation svg,
+.about .aboutContainer .educationWork .work .workList .cWork svg {
     width: 3.25rem;
     height: 3.25rem;
     color: var(--color-f);
@@ -127,135 +127,133 @@
     left: 1rem;
 }
 
-.home .homeContainer .educationWork .education .educationList .cEducation h1,
-.home .homeContainer .educationWork .work .workList .cWork h1 {
+.about .aboutContainer .educationWork .education .educationList .cEducation h1,
+.about .aboutContainer .educationWork .work .workList .cWork h1 {
     font-size: 1.25rem;
     font-family: 'Helvetica Bold';
     color: var(--color-f);
     margin: 1rem 0 1rem 4rem;
 }
 
-.home .homeContainer .educationWork .education .educationList .cEducation p,
-.home .homeContainer .educationWork .work .workList .cWork p {
+.about .aboutContainer .educationWork .education .educationList .cEducation p,
+.about .aboutContainer .educationWork .work .workList .cWork p {
     font-size: 1rem;
     font-family: 'Helvetica Regular';
     color: var(--color-f);
     margin: 0.5rem 0;
 }
 
-.home .homeContainer .educationWork .swiper-horizontal > .swiper-pagination-bullets,
-.home .homeContainer .educationWork .swiper-pagination-bullets.swiper-pagination-horizontal,
-.home .homeContainer .educationWork .swiper-pagination-custom, .swiper-pagination-fraction {
+.about .aboutContainer .educationWork .swiper-horizontal > .swiper-pagination-bullets,
+.about .aboutContainer .educationWork .swiper-pagination-bullets.swiper-pagination-horizontal,
+.about .aboutContainer .educationWork .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 0.25rem;
 }
 
-.home .homeContainer .educationWork .swiper-pagination .swiper-pagination-bullet {
+.about .aboutContainer .educationWork .swiper-pagination .swiper-pagination-bullet {
     width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,1rem));
     height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,1rem));
     background-color: var(--color-f);
 }
 
-.home .homeContainer .educationWork .swiper-pagination .swiper-pagination-bullet-active {
+.about .aboutContainer .educationWork .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--color-a);
 }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1366px) {
-    .home {
+    .about {
         flex-flow: column wrap;
     }
 
-    .home .homeLogo {
+    .about .aboutLogo {
         padding: 2rem 0.5rem;
     }
 
-    .home .homeContainer {
+    .about .aboutContainer {
         align-items: center;
         padding: 1.5rem 0.5rem;
     }
     
-    .home .homeLogo img {
+    .about .aboutLogo img {
         width: 20rem;
     }
 
-    .home .homeContainer .about {
+    .about .aboutContainer .aboutMe {
         width: 35rem;
     }
     
-    .home .homeContainer .educationWork {
+    .about .aboutContainer .educationWork {
         flex-flow: column wrap;
-        margin: 1.5rem 0;
+        margin: 1.5rem 0 1rem 0;
     }
 
-    .home .homeContainer .educationWork .education {
+    .about .aboutContainer .educationWork .education {
         margin: 0 0 1rem 0;
     }
     
-    .home .homeContainer .educationWork .education .educationList .cEducation,
-    .home .homeContainer .educationWork .work .workList .cWork {
+    .about .aboutContainer .educationWork .education .educationList .cEducation,
+    .about .aboutContainer .educationWork .work .workList .cWork {
         min-height: 16rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .home .homeLogo img {
+    .about .aboutLogo img {
         width: 15rem;
     }
 
-    .home .homeLogo {
+    .about .aboutLogo {
         padding: 1.75rem 0.5rem;
     }
 
-    .home .homeContainer {
+    .about .aboutContainer {
         padding: 1rem 0;
     }
 
-    .home .homeContainer .about {
+    .about .aboutContainer .aboutMe {
         width: 27rem;
     }
 
-    .home .homeContainer .educationWork .education,
-    .home .homeContainer .educationWork .work {
+    .about .aboutContainer .educationWork .education,
+    .about .aboutContainer .educationWork .work {
         width: 27rem;
     }
-
-    
 }
 
 @media screen and (max-width: 480px) {
-    .home .homeLogo img {
+    .about .aboutLogo img {
         width: 12.5rem;
     }
 
-    .home .homeContainer .about {
+    .about .aboutContainer .aboutMe {
         width: 19rem;
     }
 
-    .home .homeContainer .about .aboutTitle h1 {
+    .about .aboutContainer .aboutMe .aboutTitle h1 {
         font-size: 2rem;
     }
 
-    .home .homeContainer .about .aboutInner a {
+    .about .aboutContainer .aboutMe .aboutInner a {
         width: 7rem;
     }
 
-    .home .homeContainer .educationWork .education,
-    .home .homeContainer .educationWork .work {
+    .about .aboutContainer .educationWork .education,
+    .about .aboutContainer .educationWork .work {
         width: 19rem;
     }
     
-    .home .homeContainer .educationWork .education .educationTitle h1,
-    .home .homeContainer .educationWork .work .workTitle h1 {
+    .about .aboutContainer .educationWork .education .educationTitle h1,
+    .about .aboutContainer .educationWork .work .workTitle h1 {
         font-size: 2rem;
     }
 
-    .home .homeContainer .educationWork .education .educationList .cEducation,
-    .home .homeContainer .educationWork .work .workList .cWork {
+    .about .aboutContainer .educationWork .education .educationList .cEducation,
+    .about .aboutContainer .educationWork .work .workList .cWork {
         min-height: 18rem;
     }
 
-    .home .homeContainer .educationWork .education .educationList .cEducation h1,
-    .home .homeContainer .educationWork .work .workList .cWork h1 {
+    .about .aboutContainer .educationWork .education .educationList .cEducation h1,
+    .about .aboutContainer .educationWork .work .workList .cWork h1 {
         font-size: 1rem;
         margin: 1.25rem 0 1rem 3.5rem;
     }

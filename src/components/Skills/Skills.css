@@ -41,10 +41,6 @@
     font-size: 2.5rem;
 }
 
-.skills .skillsContainer {
-    flex-flow: row wrap;
-}
-
 .skills .skillsContainer .skillsTop,
 .skills .skillsContainer .skillsBottom {
     display: flex;
@@ -170,7 +166,7 @@
     }
 
     .skills .skillsContainer {
-        padding: 1rem 0.5rem;
+        padding: 1rem 0.5rem 1.5rem 0.5rem;
     }
     
     .skills .skillsContainer .skillsInner {

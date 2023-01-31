@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Loader from './components/Loader/Loader.jsx';
 import Menu from './components/Menu/Menu.jsx';
-import Home from './components/Home/Home.jsx';
+import About from './components/About/About.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import Skills from './components/Skills/Skills.jsx';
 import Contact from './components/Contact/Contact.jsx';
@@ -30,7 +30,7 @@ const App = () => {
       : (<div className='content'>
             <Menu />
             <Routes location={location} key={location.pathname}>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/' element={<About/>}/>
                 <Route path='/projects' element={<Projects/>}/>
                 <Route path='/skills' element={<Skills/>}/>
                 <Route path='/contact' element={<Contact/>}/>

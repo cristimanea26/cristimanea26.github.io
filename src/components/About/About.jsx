@@ -6,16 +6,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './Home.css';
+import './About.css';
 
-const Home = () => {
+const About = () => {
     return (
-        <m.div className='home'>
-                <m.div className='homeLogo' variants={fadeIn('right', 'tween', 0.75, 1)} initial='hidden' animate='show'>
+        <m.div className='about'>
+                <m.div className='aboutLogo' variants={fadeIn('right', 'tween', 0.75, 1)} initial='hidden' animate='show'>
                     <img alt={logo[0].title} src={logo[0].icon}/>
                 </m.div>
-                <div className='homeContainer'>
-                    <m.div className='about' variants={fadeIn('down', 'tween', 0.75, 1)} initial='hidden' animate='show'>
+                <div className='aboutContainer'>
+                    <m.div className='aboutMe' variants={fadeIn('down', 'tween', 0.75, 1)} initial='hidden' animate='show'>
                         <div className='aboutTitle'>
                             <h1>About</h1>
                         </div>
@@ -73,4 +73,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default About;
