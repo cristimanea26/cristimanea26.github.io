@@ -162,11 +162,11 @@
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1366px) {
     .skills .skillsTitle {
-        padding: 1.75rem 5rem;
+        padding: 1.75rem 5rem 0.75rem 5rem;
     }
 
     .skills .skillsContainer {
-        padding: 1rem 0.5rem 1.5rem 0.5rem;
+        padding: 0.75rem 0.5rem 1.5rem 0.5rem;
     }
     
     .skills .skillsContainer .skillsInner {
@@ -176,7 +176,7 @@
 
 @media screen and (max-width: 768px) {
     .skills .skillsTitle {
-        padding: 0.5rem 2.5rem;
+        padding: 0.5rem 2.5rem 0.75rem 2.5rem;
     }
     
     .skills .skillsTitle h1 {
@@ -189,13 +189,13 @@
     }
 
     .skills .skillsContainer {
-        padding: 0.5rem 0 1.5rem 0;
+        padding: 0.75rem 0 1.5rem 0;
     }
 }
 
 @media screen and (max-width: 480px) {
     .skills .skillsTitle {
-        padding: 0.5rem 1.5rem;
+        padding: 0.5rem 1.5rem 0.75rem 1.5rem;
     }
     
     .skills .skillsContainer .skillsInner {

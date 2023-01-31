@@ -191,7 +191,7 @@
 
     .projects .projectsContainer {
         flex-flow: column wrap;
-        padding: 1.5rem 0.5rem 2.5rem 0.5rem;
+        padding: 0.5rem 0.5rem 2.5rem 0.5rem;
     }
 
     .projects .projectsContainer .projectsInner .fieldTitle {
