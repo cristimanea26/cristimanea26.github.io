@@ -12,34 +12,34 @@ import './App.css';
 const App = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
-  
+
   ReactGA.initialize('G-BXR0LZ45ZF');
   ReactGA.pageview(window.location.pathname + window.location.search);
-  
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 2000);
-  },[]);
+  }, []);
 
   return (
     <div className='App'>
-      { loading
-      ? (<Loader />)
-      : (<div className='content'>
-            <Menu />
-            <Routes location={location} key={location.pathname}>
-                <Route path='/' element={<About/>}/>
-                <Route path='/projects' element={<Projects/>}/>
-                <Route path='/skills' element={<Skills/>}/>
-                <Route path='/contact' element={<Contact/>}/>
-            </Routes>
-          </div>
-        )
-      }
+      {loading ? (
+        <Loader />
+      ) : (
+        <div className='content'>
+          <Menu />
+          <Routes location={location} key={location.pathname}>
+            <Route path='/' element={<About />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/skills' element={<Skills />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </div>
+      )}
     </div>
-  )
-}
+  );
+};
 
 export default App;
