@@ -1,0 +1,234 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 5;
+
+  .skillsTitle,
+  .skillsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 0.5rem;
+  }
+
+  .skillsTitle {
+    flex-flow: column wrap;
+    text-align: center;
+
+    h1,
+    h3 {
+      color: $colorF;
+      font-family: $oleoScriptRegular;
+    }
+
+    h1 {
+      font-size: 5rem;
+      margin: 0 0 1rem 0;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .skillsContainer {
+    flex-flow: row wrap;
+
+    .skillsTop,
+    .skillsBottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
+    .skillsInner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      width: 22rem;
+      height: 28rem;
+      border-radius: 1rem;
+      background-color: $colorAA;
+      padding: 1rem;
+      margin: 1rem;
+      cursor: pointer;
+      box-shadow: $boxShadow;
+      filter: blur(0.5rem);
+      -webkit-transition: $transitionTime;
+      -moz-transition: $transitionTime;
+      -ms-transition: $transitionTime;
+      -o-transition: $transitionTime;
+      transition: $transitionTime;
+
+      &:hover {
+        filter: blur(0);
+      }
+
+      .techsTitle {
+        h1 {
+          color: $colorF;
+          font-family: $oleoScriptRegular;
+          font-size: 2.5rem;
+          margin: 0 0 1rem 0;
+        }
+      }
+
+      .techsList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+
+        .cSkill {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          flex-flow: row wrap;
+          position: relative;
+          width: 18rem;
+          padding: 0.5rem;
+          margin: 0.25rem 0;
+          border-radius: 0.5rem;
+          background-color: $colorDD;
+          box-shadow: $boxShadow;
+
+          &:hover {
+            h1 {
+              background-color: $colorEE;
+              opacity: 1;
+            }
+
+            h2 {
+              opacity: 0;
+            }
+
+            svg {
+              opacity: 0;
+            }
+          }
+
+          h1,
+          h2 {
+            color: $colorF;
+            font-family: $helveticaRegular;
+            font-size: 0.85rem;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+          }
+
+          h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            opacity: 0;
+          }
+
+          h2 {
+            padding: 0.25rem 0 0 0.25rem;
+            opacity: 1;
+          }
+
+          svg {
+            color: $colorF;
+            width: 1.5rem;
+            height: 1.5rem;
+            opacity: 1;
+            -webkit-transition: $transitionTime;
+            -moz-transition: $transitionTime;
+            -ms-transition: $transitionTime;
+            -o-transition: $transitionTime;
+            transition: $transitionTime;
+          }
+        }
+      }
+    }
+  }
+}
+
+//* MEDIA QUERIES
+@media screen and (max-width: 1366px) {
+  .skills {
+    .skillsTitle {
+      padding: 1.75rem 5rem 0.75rem 5rem;
+    }
+
+    .skillsContainer {
+      padding: 0.75rem 0.5rem 1.5rem 0.5rem;
+
+      .skillsInner {
+        width: 20rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+    .skillsTitle {
+      padding: 0.5rem 2.5rem 0.75rem 2.5rem;
+
+      h1 {
+        font-size: 2.5rem;
+        margin: 1.25rem 0;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .skillsContainer {
+      padding: 0.75rem 0 1.5rem 0;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    .skillsTitle {
+      padding: 0.5rem 1.5rem 0.75rem 1.5rem;
+    }
+
+    .skillsContainer {
+      .skillsInner {
+        width: 19rem;
+        margin: 1rem 0;
+
+        .techsTitle {
+          h1 {
+            font-size: 2rem;
+          }
+        }
+
+        .techsList {
+          .cSkill {
+            width: 16rem;
+
+            h1,
+            h2 {
+              font-size: 0.75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

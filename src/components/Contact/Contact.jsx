@@ -3,7 +3,6 @@ import { motion as m } from 'framer-motion';
 import { fadeIn } from '../Animations.jsx';
 import { contactA, contactB } from '../Data.jsx';
 import emailjs from '@emailjs/browser';
-import './Contact.css';
 
 const Contact = () => {
   const form = useRef();

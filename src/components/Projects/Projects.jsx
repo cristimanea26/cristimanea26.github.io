@@ -7,7 +7,6 @@ import { EffectCreative, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/effect-creative';
 import 'swiper/css/pagination';
-import './Projects.css';
 
 const Projects = () => {
   return (

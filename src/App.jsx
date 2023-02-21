@@ -7,13 +7,14 @@ import Projects from './components/Projects/Projects.jsx';
 import Skills from './components/Skills/Skills.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import ReactGA from 'react-ga';
-import './App.css';
 
 const App = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
 
-  ReactGA.initialize('G-BXR0LZ45ZF');
+  const TRACKING_ID = 'UA-255062910-1';
+  ReactGA.initialize(TRACKING_ID);
+
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   useEffect(() => {

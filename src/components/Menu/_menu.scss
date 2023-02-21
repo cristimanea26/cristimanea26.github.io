@@ -1,0 +1,261 @@
+.menu {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 20;
+
+  .menuBars {
+    cursor: pointer;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 3rem;
+    right: 4.25rem;
+    z-index: 25;
+
+    &:hover {
+      .line {
+        background-color: $colorC;
+
+        &::before,
+        &::after {
+          background-color: $colorC;
+        }
+      }
+    }
+
+    &.open {
+      .line {
+        border-radius: 0;
+        box-shadow: none;
+        transform: rotateZ(-180deg);
+
+        &::before,
+        &::after {
+          border-radius: 0;
+          box-shadow: none;
+        }
+
+        &::before {
+          transform: rotateZ(-45deg) scaleX(0.75) translate(-1rem, -0.25rem);
+        }
+
+        &::after {
+          transform: rotateZ(45deg) scaleX(0.75) translate(-1rem, 0.25rem);
+        }
+      }
+    }
+
+    .line {
+      position: absolute;
+      top: 1.25rem;
+      width: 3rem;
+      height: 0.5rem;
+      border-radius: 0.25rem;
+      display: block;
+      background-color: $colorF;
+      box-shadow: $boxShadow;
+      -webkit-transition: $transitionTime;
+      -moz-transition: $transitionTime;
+      -ms-transition: $transitionTime;
+      -o-transition: $transitionTime;
+      transition: $transitionTime;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -1rem;
+        width: 3rem;
+        height: 0.5rem;
+        border-radius: 0.25rem;
+        display: block;
+        background-color: $colorF;
+        box-shadow: $boxShadow;
+        -webkit-transition: $transitionTime;
+        -moz-transition: $transitionTime;
+        -ms-transition: $transitionTime;
+        -o-transition: $transitionTime;
+        transition: $transitionTime;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 1rem;
+        width: 3rem;
+        height: 0.5rem;
+        border-radius: 0.25rem;
+        display: block;
+        background-color: $colorF;
+        box-shadow: $boxShadow;
+        -webkit-transition: $transitionTime;
+        -moz-transition: $transitionTime;
+        -ms-transition: $transitionTime;
+        -o-transition: $transitionTime;
+        transition: $transitionTime;
+      }
+    }
+  }
+
+  .menuList {
+    position: absolute;
+    top: -2rem;
+    right: -2rem;
+    height: 100vh;
+    width: 0;
+    background-color: $colorDD;
+    padding: 10rem 0 0 0;
+    opacity: 0;
+    z-index: 15;
+    -webkit-transition: $transitionTime;
+    -moz-transition: $transitionTime;
+    -ms-transition: $transitionTime;
+    -o-transition: $transitionTime;
+    transition: $transitionTime;
+
+    &.active {
+      width: 15rem;
+      opacity: 1;
+    }
+
+    .menuListItems {
+      .cMenu {
+        a {
+          display: block;
+          text-align: center;
+          padding: 2rem 0;
+
+          &:hover {
+            box-shadow: inset 0 0 0 5rem $colorF;
+
+            span {
+              color: $colorC;
+            }
+          }
+
+          span {
+            color: $colorF;
+            font-family: $helveticaBold;
+            font-size: 2.5rem;
+            text-shadow: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+//* MEDIA QUERIES
+@media screen and (max-width: 1366px) {
+  .menu {
+    .menuBars {
+      top: 1rem;
+      right: 2rem;
+    }
+
+    .menuList {
+      padding: 7rem 0 0 0;
+
+      &.active {
+        width: 11rem;
+      }
+
+      .menuListItems {
+        .cMenu {
+          a {
+            padding: 1rem 0;
+
+            &:hover {
+              box-shadow: inset 0 0 0 2.5rem $colorF;
+            }
+
+            span {
+              font-size: 1.75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    .menuBars {
+      top: 0;
+      right: 1rem;
+      width: 2rem;
+      height: 2rem;
+
+      &.open {
+        .line {
+          &::before {
+            transform: rotateZ(-45deg) scaleX(0.75) translate(-0.5rem, -0.35rem);
+          }
+
+          &::after {
+            transform: rotateZ(45deg) scaleX(0.75) translate(-0.5rem, 0.35rem);
+          }
+        }
+      }
+
+      .line {
+        top: 0.9rem;
+        width: 2rem;
+        height: 0.25rem;
+
+        &::before {
+          top: -0.5rem;
+          width: 2rem;
+          height: 0.25rem;
+        }
+
+        &::after {
+          top: 0.5rem;
+          width: 2rem;
+          height: 0.25rem;
+        }
+      }
+    }
+
+    .menuList {
+      padding: 4.5rem 0 0 0;
+
+      &.active {
+        width: 8rem;
+      }
+
+      .menuListItems {
+        .cMenu {
+          a {
+            padding: 0.75rem 0;
+
+            &:hover {
+              box-shadow: inset 0 0 0 2rem $colorF;
+            }
+
+            span {
+              font-size: 1.25rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    .menuBars {
+      right: -1rem;
+    }
+
+    .menuList {
+      background-color: $colorD;
+
+      &.active {
+        width: 100vw;
+      }
+    }
+  }
+}

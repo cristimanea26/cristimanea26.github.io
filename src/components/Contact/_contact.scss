@@ -1,0 +1,255 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 5;
+
+  .contactTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 2.5rem 0.5rem;
+
+    h1,
+    h3 {
+      font-family: $oleoScriptRegular;
+      color: $colorF;
+    }
+
+    h1 {
+      font-size: 5rem;
+      margin: 0 0 1rem 0;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 2.5rem 0.5rem;
+
+    .contactOptions {
+      border-radius: 1rem 0 0 1rem;
+      padding: 3.5rem;
+      background-color: $colorAA;
+      box-shadow: $boxShadow;
+      z-index: 1;
+
+      .contactOptionsTop,
+      .contactOptionsBottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        text-align: center;
+        margin: 1rem;
+      }
+
+      .cContact {
+        text-align: center;
+        margin: 1rem 2rem;
+
+        a {
+          &:hover {
+            svg {
+              box-shadow: inset 0 0 0 2.5rem $colorEE;
+            }
+          }
+
+          span {
+            color: $colorF;
+            font-family: $helveticaRegular;
+            font-size: 1.5rem;
+          }
+
+          svg {
+            display: block;
+            width: 4.5rem;
+            height: 4.5rem;
+            color: $colorF;
+            background-color: $colorDD;
+            border-radius: 1rem;
+            padding: 0.75rem;
+            margin: 1rem auto;
+          }
+        }
+      }
+    }
+
+    .contactForm {
+      width: 35rem;
+      border-radius: 1rem;
+      padding: 2.5rem 3.5rem;
+      background-color: $colorBB;
+      box-shadow: $boxShadow;
+      z-index: 2;
+
+      form {
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-items: center;
+
+        input,
+        textarea {
+          width: 100%;
+          box-shadow: $boxShadow;
+          border-radius: 0.5rem;
+          padding: 1rem;
+          margin: 1rem 0;
+          resize: none;
+        }
+
+        .btn {
+          cursor: pointer;
+          display: block;
+          text-align: center;
+          width: 10rem;
+          color: $colorF;
+          font-family: $helveticaRegular;
+          font-size: 1.5rem;
+          background-color: $colorEE;
+          box-shadow: 0.3rem 0.3rem 0 0 $colorAA,
+            inset 0.3rem 0.3rem 0 0 $colorAA;
+          border-radius: 0.5rem;
+          padding: 1rem;
+          margin: 1rem 0;
+
+          &:hover {
+            background-color: $colorA;
+            box-shadow: 0 0 0 0 $colorAA, inset 6rem 3rem 0 0 $colorAA;
+          }
+        }
+      }
+    }
+  }
+}
+
+//* MEDIA QUERIES
+@media screen and (max-width: 1366px) {
+  .contact {
+    .contactTitle {
+      padding: 1.75rem 5rem;
+    }
+
+    .contactContainer {
+      flex-flow: column wrap;
+      padding: 0.75rem 0.5rem 2.5rem 0.5rem;
+
+      .contactOptions {
+        border-radius: 1rem;
+        padding: 1.75rem;
+      }
+
+      .contactForm {
+        width: 30rem;
+        border-radius: 0 0 1rem 1rem;
+        padding: 1.5rem 2.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    .contactTitle {
+      padding: 0.5rem 2.5rem;
+
+      h1 {
+        font-size: 2.5rem;
+        margin: 1.25rem 0;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+    .contactContainer {
+      padding: 2rem 0 2.5rem 0;
+
+      .contactOptions {
+        padding: 1rem;
+
+        .cContact {
+          margin: 1rem;
+
+          a {
+            span {
+              font-size: 1rem;
+            }
+
+            svg {
+              width: 3.5rem;
+              height: 3.5rem;
+            }
+          }
+        }
+      }
+
+      .contactForm {
+        width: 25rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    .contactTitle {
+      padding: 0.5rem 1.5rem;
+    }
+
+    .contactContainer {
+      width: 100%;
+
+      .contactOptions {
+        width: 100%;
+        border-radius: 0;
+        padding: 0.5rem;
+
+        .contactOptionsTop,
+        .contactOptionsBottom {
+          margin: 0.5rem;
+        }
+
+        .contactOptionsBottom {
+          flex-flow: row wrap;
+        }
+
+        .cContact {
+          margin: 0.5rem;
+        }
+      }
+
+      .contactForm {
+        width: 100%;
+        border-radius: 0;
+        padding: 0.5rem 1rem;
+
+        form {
+          input,
+          textarea {
+            margin: 0.5rem 0;
+          }
+
+          .btn {
+            width: 7.5rem;
+            font-size: 1rem;
+            padding: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { menuData } from '../Data.jsx';
-import './Menu.css';
 
 const Menu = () => {
   const [menubar, setMenuBar] = useState(false);

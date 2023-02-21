@@ -2,7 +2,6 @@ import React from 'react';
 import { motion as m } from 'framer-motion';
 import { fadeIn } from '../Animations.jsx';
 import { webTechs, designTechs, gameTechs, otherTechs } from '../Data.jsx';
-import './Skills.css';
 
 const Skills = () => {
   return (
