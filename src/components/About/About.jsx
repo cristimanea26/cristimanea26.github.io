@@ -34,7 +34,7 @@ const About = () => {
               3D art for games and sometimes I build games.
             </p>
             <a
-              href='https://drive.google.com/file/d/1mqmAs6IbnrLwZz4XKCCIaQPbziE0eYAS/view?usp=sharing'
+              href='https://drive.google.com/file/d/1x30R-lrg9RqErI1hQQ9fW5zhgxSKXI3r/view?usp=sharing'
               target='_blank'
             >
               Resume
