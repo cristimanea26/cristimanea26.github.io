@@ -54,6 +54,7 @@ const About = () => {
             <div className='educationList'>
               <Swiper
                 className='educationSlider'
+                grabCursor={true}
                 modules={[Pagination]}
                 spaceBetween={25}
                 slidesPerView={1}
@@ -86,6 +87,7 @@ const About = () => {
             <div className='workList'>
               <Swiper
                 className='workSlider'
+                grabCursor={true}
                 modules={[Pagination]}
                 spaceBetween={25}
                 slidesPerView={1}
