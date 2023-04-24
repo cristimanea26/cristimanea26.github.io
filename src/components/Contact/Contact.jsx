@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { motion as m } from "framer-motion";
-import { fadeIn } from "../Animations.jsx";
-import { contactA, contactB } from "../Data.jsx";
+import { fadeIn } from "../Animations";
+import { contactA, contactB } from "../Data";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-import Loader from "./components/Loader/Loader.jsx";
-import Menu from "./components/Menu/Menu.jsx";
-import About from "./components/About/About.jsx";
-import Projects from "./components/Projects/Projects.jsx";
-import Skills from "./components/Skills/Skills.jsx";
-import Contact from "./components/Contact/Contact.jsx";
+import Loader from "./components/Loader/Loader";
+import Menu from "./components/Menu/Menu";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
+import Contact from "./components/Contact/Contact";
 import ReactGA from "react-ga";
 
 const App = () => {

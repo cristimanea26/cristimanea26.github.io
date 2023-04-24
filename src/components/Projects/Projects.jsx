@@ -1,7 +1,7 @@
 import React from "react";
 import { motion as m } from "framer-motion";
-import { fadeIn } from "../Animations.jsx";
-import { web, design, game } from "../Data.jsx";
+import { fadeIn } from "../Animations";
+import { web, design, game } from "../Data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCreative, Pagination } from "swiper";
 import "swiper/css";
