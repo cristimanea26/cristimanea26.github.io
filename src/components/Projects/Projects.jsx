@@ -1,49 +1,49 @@
-import React from 'react';
-import { motion as m } from 'framer-motion';
-import { fadeIn } from '../Animations.jsx';
-import { web, design, game } from '../Data.jsx';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCreative, Pagination } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/effect-creative';
-import 'swiper/css/pagination';
+import React from "react";
+import { motion as m } from "framer-motion";
+import { fadeIn } from "../Animations.jsx";
+import { web, design, game } from "../Data.jsx";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCreative, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/effect-creative";
+import "swiper/css/pagination";
 
 const Projects = () => {
   return (
-    <m.div className='projects'>
+    <m.div className="projects">
       <m.div
-        className='projectsTitle'
-        variants={fadeIn('down', 'tween', 0.75, 1)}
-        initial='hidden'
-        animate='show'
+        className="projectsTitle"
+        variants={fadeIn("down", "tween", 0.75, 1)}
+        initial="hidden"
+        animate="show"
       >
         <h1>My personal projects</h1>
       </m.div>
-      <div className='projectsContainer'>
+      <div className="projectsContainer">
         <m.div
-          className='projectsInner'
-          variants={fadeIn('right', 'tween', 0.75, 1)}
-          initial='hidden'
-          animate='show'
+          className="projectsInner"
+          variants={fadeIn("right", "tween", 0.75, 1)}
+          initial="hidden"
+          animate="show"
         >
-          <div className='fieldTitle'>
+          <div className="fieldTitle">
             <h1>Web</h1>
           </div>
-          <div className='fieldProjectList'>
+          <div className="fieldProjectList">
             <Swiper
-              className='fieldProjectSlider'
+              className="fieldProjectSlider"
               grabCursor={true}
-              effect={'creative'}
+              effect={"creative"}
               creativeEffect={{
                 prev: {
                   shadow: true,
-                  origin: 'left center',
-                  translate: ['-5%', 0, -200],
+                  origin: "left center",
+                  translate: ["-5%", 0, -200],
                   rotate: [0, 100, 0],
                 },
                 next: {
-                  origin: 'right center',
-                  translate: ['5%', 0, -200],
+                  origin: "right center",
+                  translate: ["5%", 0, -200],
                   rotate: [0, -100, 0],
                 },
               }}
@@ -52,15 +52,15 @@ const Projects = () => {
             >
               {web.map((item, i) => {
                 return (
-                  <SwiperSlide key={i} className='projectItem'>
+                  <SwiperSlide key={i} className="projectItem">
                     <div
-                      className='projectItemImage'
+                      className="projectItemImage"
                       style={{ backgroundImage: `url(${item.image})` }}
                     ></div>
-                    <div className='projectItemInfo'>
+                    <div className="projectItemInfo">
                       <h1>{item.title}</h1>
                       <p>{item.description}</p>
-                      <a href={item.path} target='_blank'>
+                      <a href={item.path} target="_blank">
                         Open the project
                       </a>
                     </div>
@@ -71,29 +71,29 @@ const Projects = () => {
           </div>
         </m.div>
         <m.div
-          className='projectsInner'
-          variants={fadeIn('up', 'tween', 0.75, 1)}
-          initial='hidden'
-          animate='show'
+          className="projectsInner"
+          variants={fadeIn("up", "tween", 0.75, 1)}
+          initial="hidden"
+          animate="show"
         >
-          <div className='fieldTitle'>
+          <div className="fieldTitle">
             <h1>Design</h1>
           </div>
-          <div className='fieldProjectList'>
+          <div className="fieldProjectList">
             <Swiper
-              className='fieldProjectSlider'
+              className="fieldProjectSlider"
               grabCursor={true}
-              effect={'creative'}
+              effect={"creative"}
               creativeEffect={{
                 prev: {
                   shadow: true,
-                  origin: 'left center',
-                  translate: ['-5%', 0, -200],
+                  origin: "left center",
+                  translate: ["-5%", 0, -200],
                   rotate: [0, 100, 0],
                 },
                 next: {
-                  origin: 'right center',
-                  translate: ['5%', 0, -200],
+                  origin: "right center",
+                  translate: ["5%", 0, -200],
                   rotate: [0, -100, 0],
                 },
               }}
@@ -102,15 +102,15 @@ const Projects = () => {
             >
               {design.map((item, i) => {
                 return (
-                  <SwiperSlide key={i} className='projectItem'>
+                  <SwiperSlide key={i} className="projectItem">
                     <div
-                      className='projectItemImage'
+                      className="projectItemImage"
                       style={{ backgroundImage: `url(${item.image})` }}
                     ></div>
-                    <div className='projectItemInfo'>
+                    <div className="projectItemInfo">
                       <h1>{item.title}</h1>
                       <p>{item.description}</p>
-                      <a href={item.path} target='_blank'>
+                      <a href={item.path} target="_blank">
                         Open the project
                       </a>
                     </div>
@@ -121,29 +121,29 @@ const Projects = () => {
           </div>
         </m.div>
         <m.div
-          className='projectsInner'
-          variants={fadeIn('left', 'tween', 0.75, 1)}
-          initial='hidden'
-          animate='show'
+          className="projectsInner"
+          variants={fadeIn("left", "tween", 0.75, 1)}
+          initial="hidden"
+          animate="show"
         >
-          <div className='fieldTitle'>
+          <div className="fieldTitle">
             <h1>Game</h1>
           </div>
-          <div className='fieldProjectList'>
+          <div className="fieldProjectList">
             <Swiper
-              className='fieldProjectSlider'
+              className="fieldProjectSlider"
               grabCursor={true}
-              effect={'creative'}
+              effect={"creative"}
               creativeEffect={{
                 prev: {
                   shadow: true,
-                  origin: 'left center',
-                  translate: ['-5%', 0, -200],
+                  origin: "left center",
+                  translate: ["-5%", 0, -200],
                   rotate: [0, 100, 0],
                 },
                 next: {
-                  origin: 'right center',
-                  translate: ['5%', 0, -200],
+                  origin: "right center",
+                  translate: ["5%", 0, -200],
                   rotate: [0, -100, 0],
                 },
               }}
@@ -152,15 +152,15 @@ const Projects = () => {
             >
               {game.map((item, i) => {
                 return (
-                  <SwiperSlide key={i} className='projectItem'>
+                  <SwiperSlide key={i} className="projectItem">
                     <div
-                      className='projectItemImage'
+                      className="projectItemImage"
                       style={{ backgroundImage: `url(${item.image})` }}
                     ></div>
-                    <div className='projectItemInfo'>
+                    <div className="projectItemInfo">
                       <h1>{item.title}</h1>
                       <p>{item.description}</p>
-                      <a href={item.path} target='_blank'>
+                      <a href={item.path} target="_blank">
                         Open the project
                       </a>
                     </div>

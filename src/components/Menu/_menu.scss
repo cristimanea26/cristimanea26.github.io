@@ -62,7 +62,7 @@
       transition: $transitionTime;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: -1rem;
         width: 3rem;
@@ -79,7 +79,7 @@
       }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 1rem;
         width: 3rem;
