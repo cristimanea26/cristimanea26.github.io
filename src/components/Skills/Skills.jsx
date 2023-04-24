@@ -1,32 +1,32 @@
-import React from 'react';
-import { motion as m } from 'framer-motion';
-import { fadeIn } from '../Animations.jsx';
-import { webTechs, designTechs, gameTechs, otherTechs } from '../Data.jsx';
+import React from "react";
+import { motion as m } from "framer-motion";
+import { fadeIn } from "../Animations.jsx";
+import { webTechs, designTechs, gameTechs, otherTechs } from "../Data.jsx";
 
 const Skills = () => {
   return (
-    <m.div className='skills'>
+    <m.div className="skills">
       <m.div
-        className='skillsTitle'
-        variants={fadeIn('down', 'tween', 0.75, 1)}
-        initial='hidden'
-        animate='show'
+        className="skillsTitle"
+        variants={fadeIn("down", "tween", 0.75, 1)}
+        initial="hidden"
+        animate="show"
       >
         <h1>My skills</h1>
         <h3>These are the technologies that I've worked with</h3>
       </m.div>
-      <div className='skillsContainer'>
-        <div className='skillsTop'>
+      <div className="skillsContainer">
+        <div className="skillsTop">
           <m.div
-            className='skillsInner'
-            variants={fadeIn('right', 'tween', 0.75, 1)}
-            initial='hidden'
-            animate='show'
+            className="skillsInner"
+            variants={fadeIn("right", "tween", 0.75, 1)}
+            initial="hidden"
+            animate="show"
           >
-            <div className='techsTitle'>
+            <div className="techsTitle">
               <h1>Web</h1>
             </div>
-            <div className='techsList'>
+            <div className="techsList">
               {webTechs.map((item, i) => {
                 return (
                   <div key={i} className={item.cName}>
@@ -39,15 +39,15 @@ const Skills = () => {
             </div>
           </m.div>
           <m.div
-            className='skillsInner'
-            variants={fadeIn('down', 'tween', 0.75, 1)}
-            initial='hidden'
-            animate='show'
+            className="skillsInner"
+            variants={fadeIn("down", "tween", 0.75, 1)}
+            initial="hidden"
+            animate="show"
           >
-            <div className='techsTitle'>
+            <div className="techsTitle">
               <h1>Design</h1>
             </div>
-            <div className='techsList'>
+            <div className="techsList">
               {designTechs.map((item, i) => {
                 return (
                   <div key={i} className={item.cName}>
@@ -60,17 +60,17 @@ const Skills = () => {
             </div>
           </m.div>
         </div>
-        <div className='skillsBottom'>
+        <div className="skillsBottom">
           <m.div
-            className='skillsInner'
-            variants={fadeIn('up', 'tween', 0.75, 1)}
-            initial='hidden'
-            animate='show'
+            className="skillsInner"
+            variants={fadeIn("up", "tween", 0.75, 1)}
+            initial="hidden"
+            animate="show"
           >
-            <div className='techsTitle'>
+            <div className="techsTitle">
               <h1>Game</h1>
             </div>
-            <div className='techsList'>
+            <div className="techsList">
               {gameTechs.map((item, i) => {
                 return (
                   <div key={i} className={item.cName}>
@@ -83,15 +83,15 @@ const Skills = () => {
             </div>
           </m.div>
           <m.div
-            className='skillsInner'
-            variants={fadeIn('left', 'tween', 0.75, 1)}
-            initial='hidden'
-            animate='show'
+            className="skillsInner"
+            variants={fadeIn("left", "tween", 0.75, 1)}
+            initial="hidden"
+            animate="show"
           >
-            <div className='techsTitle'>
+            <div className="techsTitle">
               <h1>Other</h1>
             </div>
-            <div className='techsList'>
+            <div className="techsList">
               {otherTechs.map((item, i) => {
                 return (
                   <div key={i} className={item.cName}>

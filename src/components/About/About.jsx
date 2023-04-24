@@ -1,59 +1,59 @@
-import React from 'react';
-import { motion as m } from 'framer-motion';
-import { fadeIn } from '../Animations.jsx';
-import { logo, education, work } from '../Data.jsx';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import React from "react";
+import { motion as m } from "framer-motion";
+import { fadeIn } from "../Animations.jsx";
+import { logo, education, work } from "../Data.jsx";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const About = () => {
   return (
-    <m.div className='about'>
+    <m.div className="about">
       <m.div
-        className='aboutLogo'
-        variants={fadeIn('right', 'tween', 0.75, 1)}
-        initial='hidden'
-        animate='show'
+        className="aboutLogo"
+        variants={fadeIn("right", "tween", 0.75, 1)}
+        initial="hidden"
+        animate="show"
       >
         <img alt={logo[0].title} src={logo[0].icon} />
       </m.div>
-      <div className='aboutContainer'>
+      <div className="aboutContainer">
         <m.div
-          className='aboutMe'
-          variants={fadeIn('down', 'tween', 0.75, 1)}
-          initial='hidden'
-          animate='show'
+          className="aboutMe"
+          variants={fadeIn("down", "tween", 0.75, 1)}
+          initial="hidden"
+          animate="show"
         >
-          <div className='aboutTitle'>
+          <div className="aboutTitle">
             <h1>About</h1>
           </div>
-          <div className='aboutInner'>
+          <div className="aboutInner">
             <p>
               Hello, I'm <span>Cristi Manea</span> and I make web applications,
               3D art for games and sometimes I build games.
             </p>
             <a
-              href='https://drive.google.com/file/d/1x30R-lrg9RqErI1hQQ9fW5zhgxSKXI3r/view?usp=sharing'
-              target='_blank'
+              href="https://drive.google.com/file/d/1x30R-lrg9RqErI1hQQ9fW5zhgxSKXI3r/view?usp=sharing"
+              target="_blank"
             >
               Resume
             </a>
           </div>
         </m.div>
-        <div className='educationWork'>
+        <div className="educationWork">
           <m.div
-            className='education'
-            variants={fadeIn('up', 'tween', 0.75, 1)}
-            initial='hidden'
-            animate='show'
+            className="education"
+            variants={fadeIn("up", "tween", 0.75, 1)}
+            initial="hidden"
+            animate="show"
           >
-            <div className='educationTitle'>
+            <div className="educationTitle">
               <h1>Education and Training</h1>
             </div>
-            <div className='educationList'>
+            <div className="educationList">
               <Swiper
-                className='educationSlider'
+                className="educationSlider"
                 grabCursor={true}
                 modules={[Pagination]}
                 spaceBetween={25}
@@ -76,17 +76,17 @@ const About = () => {
             </div>
           </m.div>
           <m.div
-            className='work'
-            variants={fadeIn('left', 'tween', 0.75, 1)}
-            initial='hidden'
-            animate='show'
+            className="work"
+            variants={fadeIn("left", "tween", 0.75, 1)}
+            initial="hidden"
+            animate="show"
           >
-            <div className='workTitle'>
+            <div className="workTitle">
               <h1>Work Experience</h1>
             </div>
-            <div className='workList'>
+            <div className="workList">
               <Swiper
-                className='workSlider'
+                className="workSlider"
                 grabCursor={true}
                 modules={[Pagination]}
                 spaceBetween={25}
