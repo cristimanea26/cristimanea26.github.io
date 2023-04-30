@@ -4,7 +4,7 @@
   right: 2rem;
   z-index: 20;
 
-  .menuBars {
+  .menu-bars {
     cursor: pointer;
     position: absolute;
     width: 3rem;
@@ -97,7 +97,7 @@
     }
   }
 
-  .menuList {
+  .menu-list {
     position: absolute;
     top: -2rem;
     right: -2rem;
@@ -118,7 +118,7 @@
       opacity: 1;
     }
 
-    .menuListItems {
+    .menu-list-items {
       .cMenu {
         a {
           display: block;
@@ -148,19 +148,19 @@
 //* MEDIA QUERIES
 @media screen and (max-width: 1366px) {
   .menu {
-    .menuBars {
+    .menu-bars {
       top: 1rem;
       right: 2rem;
     }
 
-    .menuList {
+    .menu-list {
       padding: 7rem 0 0 0;
 
       &.active {
         width: 11rem;
       }
 
-      .menuListItems {
+      .menu-list-items {
         .cMenu {
           a {
             padding: 1rem 0;
@@ -181,7 +181,7 @@
 
 @media screen and (max-width: 768px) {
   .menu {
-    .menuBars {
+    .menu-bars {
       top: 0;
       right: 1rem;
       width: 2rem;
@@ -218,14 +218,14 @@
       }
     }
 
-    .menuList {
+    .menu-list {
       padding: 4.5rem 0 0 0;
 
       &.active {
         width: 8rem;
       }
 
-      .menuListItems {
+      .menu-list-items {
         .cMenu {
           a {
             padding: 0.75rem 0;
@@ -246,11 +246,11 @@
 
 @media screen and (max-width: 480px) {
   .menu {
-    .menuBars {
+    .menu-bars {
       right: -1rem;
     }
 
-    .menuList {
+    .menu-list {
       background-color: $colorD;
 
       &.active {

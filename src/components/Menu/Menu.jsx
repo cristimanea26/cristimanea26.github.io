@@ -9,22 +9,20 @@ const Menu = () => {
   return (
     <div className="menu">
       <div
-        className={menubar ? "menuBars open" : "menuBars"}
+        className={menubar ? "menu-bars open" : "menu-bars"}
         onClick={showMenuBar}
       >
         <div className="line"></div>
       </div>
-      <div className={menubar ? "menuList active" : "menuList"}>
-        <ul className="menuListItems">
-          {menuData.map((item, i) => {
-            return (
-              <li key={i} className={item.cName}>
-                <Link to={item.path} onClick={showMenuBar}>
-                  <span>{item.title}</span>
-                </Link>
-              </li>
-            );
-          })}
+      <div className={menubar ? "menu-list active" : "menu-list"}>
+        <ul className="menu-list-items">
+          {menuData.map((item, i) => (
+            <li key={i} className={item.cName}>
+              <Link to={item.path} onClick={showMenuBar}>
+                <span>{item.title}</span>
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

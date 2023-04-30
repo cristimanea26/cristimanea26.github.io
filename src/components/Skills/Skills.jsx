@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <m.div className="skills">
       <m.div
-        className="skillsTitle"
+        className="skills-title"
         variants={fadeIn("down", "tween", 0.75, 1)}
         initial="hidden"
         animate="show"
@@ -15,92 +15,84 @@ const Skills = () => {
         <h1>My skills</h1>
         <h3>These are the technologies that I've worked with</h3>
       </m.div>
-      <div className="skillsContainer">
-        <div className="skillsTop">
+      <div className="skills-container">
+        <div className="skills-top">
           <m.div
-            className="skillsInner"
+            className="skills-inner"
             variants={fadeIn("right", "tween", 0.75, 1)}
             initial="hidden"
             animate="show"
           >
-            <div className="techsTitle">
+            <div className="techs-title">
               <h1>Web</h1>
             </div>
-            <div className="techsList">
-              {webTechs.map((item, i) => {
-                return (
-                  <div key={i} className={item.cName}>
-                    {item.icon}
-                    <h2>{item.title}</h2>
-                    <h1>Experience: {item.experience}</h1>
-                  </div>
-                );
-              })}
+            <div className="techs-list">
+              {webTechs.map((item, i) => (
+                <div key={i} className={item.cName}>
+                  {item.icon}
+                  <h2>{item.title}</h2>
+                  <h1>Experience: {item.experience}</h1>
+                </div>
+              ))}
             </div>
           </m.div>
           <m.div
-            className="skillsInner"
+            className="skills-inner"
             variants={fadeIn("down", "tween", 0.75, 1)}
             initial="hidden"
             animate="show"
           >
-            <div className="techsTitle">
+            <div className="techs-title">
               <h1>Design</h1>
             </div>
-            <div className="techsList">
-              {designTechs.map((item, i) => {
-                return (
-                  <div key={i} className={item.cName}>
-                    {item.icon}
-                    <h2>{item.title}</h2>
-                    <h1>Experience: {item.experience}</h1>
-                  </div>
-                );
-              })}
+            <div className="techs-list">
+              {designTechs.map((item, i) => (
+                <div key={i} className={item.cName}>
+                  {item.icon}
+                  <h2>{item.title}</h2>
+                  <h1>Experience: {item.experience}</h1>
+                </div>
+              ))}
             </div>
           </m.div>
         </div>
-        <div className="skillsBottom">
+        <div className="skills-bottom">
           <m.div
-            className="skillsInner"
+            className="skills-inner"
             variants={fadeIn("up", "tween", 0.75, 1)}
             initial="hidden"
             animate="show"
           >
-            <div className="techsTitle">
+            <div className="techs-title">
               <h1>Game</h1>
             </div>
-            <div className="techsList">
-              {gameTechs.map((item, i) => {
-                return (
-                  <div key={i} className={item.cName}>
-                    {item.icon}
-                    <h2>{item.title}</h2>
-                    <h1>Experience: {item.experience}</h1>
-                  </div>
-                );
-              })}
+            <div className="techs-list">
+              {gameTechs.map((item, i) => (
+                <div key={i} className={item.cName}>
+                  {item.icon}
+                  <h2>{item.title}</h2>
+                  <h1>Experience: {item.experience}</h1>
+                </div>
+              ))}
             </div>
           </m.div>
           <m.div
-            className="skillsInner"
+            className="skills-inner"
             variants={fadeIn("left", "tween", 0.75, 1)}
             initial="hidden"
             animate="show"
           >
-            <div className="techsTitle">
+            <div className="techs-title">
               <h1>Other</h1>
             </div>
-            <div className="techsList">
-              {otherTechs.map((item, i) => {
-                return (
-                  <div key={i} className={item.cName}>
-                    {item.icon}
-                    <h2>{item.title}</h2>
-                    <h1>Experience: {item.experience}</h1>
-                  </div>
-                );
-              })}
+            <div className="techs-list">
+              {otherTechs.map((item, i) => (
+                <div key={i} className={item.cName}>
+                  {item.icon}
+                  <h2>{item.title}</h2>
+                  <h1>Experience: {item.experience}</h1>
+                </div>
+              ))}
             </div>
           </m.div>
         </div>

@@ -8,15 +8,15 @@
   position: relative;
   z-index: 5;
 
-  .projectsTitle,
-  .projectsContainer {
+  .projects-title,
+  .projects-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2.5rem 0.5rem;
   }
 
-  .projectsTitle {
+  .projects-title {
     flex-flow: column wrap;
     text-align: center;
 
@@ -27,14 +27,14 @@
     }
   }
 
-  .projectsContainer {
+  .projects-container {
     flex-flow: row wrap;
 
-    .projectsInner {
+    .projects-inner {
       width: 25rem;
       margin: 0 1.25rem;
 
-      .fieldTitle {
+      .field-title {
         text-align: center;
 
         h1 {
@@ -44,14 +44,14 @@
         }
       }
 
-      .fieldProjectList {
-        .fieldProjectSlider {
+      .field-project-list {
+        .field-project-slider {
           display: flex;
           justify-content: center;
           align-items: center;
           flex-flow: row wrap;
 
-          .projectItem {
+          .project-item {
             display: flex;
             justify-content: center;
             position: relative;
@@ -61,7 +61,7 @@
             box-shadow: $boxShadow;
             margin: 1rem 0 2rem 0;
 
-            .projectItemImage {
+            .project-item-image {
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center;
@@ -71,7 +71,7 @@
               z-index: 1;
             }
 
-            .projectItemInfo {
+            .project-item-info {
               display: flex;
               justify-content: center;
               align-items: center;
@@ -197,25 +197,25 @@
 //* MEDIA QUERIES
 @media screen and (max-width: 1366px) {
   .projects {
-    .projectsTitle {
+    .projects-title {
       padding: 1.5rem 7.5rem;
     }
 
-    .projectsContainer {
+    .projects-container {
       flex-flow: column wrap;
       padding: 0.5rem 0.5rem 2.5rem 0.5rem;
 
-      .projectsInner {
-        .fieldTitle {
+      .projects-inner {
+        .field-title {
           margin: 1.5rem 0 0 0;
         }
 
-        .fieldProjectList {
+        .field-project-list {
           margin: 0;
 
-          .fieldProjectSlider {
-            .projectItem {
-              .projectItemInfo {
+          .field-project-slider {
+            .project-item {
+              .project-item-info {
                 padding: 1.5rem 0.5rem;
 
                 h1 {
@@ -238,7 +238,7 @@
 
 @media screen and (max-width: 768px) {
   .projects {
-    .projectsTitle {
+    .projects-title {
       padding: 0.5rem 7.5rem;
 
       h1 {
@@ -247,15 +247,15 @@
       }
     }
 
-    .projectsContainer {
+    .projects-container {
       padding: 0.5rem 0 2.5rem 0;
 
-      .projectsInner {
+      .projects-inner {
         width: 23rem;
 
-        .fieldProjectList {
-          .fieldProjectSlider {
-            .projectItem {
+        .field-project-list {
+          .field-project-slider {
+            .project-item {
               height: 23rem;
             }
           }
@@ -267,16 +267,16 @@
 
 @media screen and (max-width: 480px) {
   .projects {
-    .projectsTitle {
+    .projects-title {
       padding: 0.5rem 3.5rem;
     }
 
-    .projectsContainer {
-      .projectsInner {
+    .projects-container {
+      .projects-inner {
         width: 18rem;
         margin: 0;
 
-        .fieldTitle {
+        .field-title {
           h1 {
             font-size: 2rem;
           }

@@ -12,26 +12,26 @@ const Projects = () => {
   return (
     <m.div className="projects">
       <m.div
-        className="projectsTitle"
+        className="projects-title"
         variants={fadeIn("down", "tween", 0.75, 1)}
         initial="hidden"
         animate="show"
       >
         <h1>My personal projects</h1>
       </m.div>
-      <div className="projectsContainer">
+      <div className="projects-container">
         <m.div
-          className="projectsInner"
+          className="projects-inner"
           variants={fadeIn("right", "tween", 0.75, 1)}
           initial="hidden"
           animate="show"
         >
-          <div className="fieldTitle">
+          <div className="field-title">
             <h1>Web</h1>
           </div>
-          <div className="fieldProjectList">
+          <div className="field-project-list">
             <Swiper
-              className="fieldProjectSlider"
+              className="field-project-slider"
               grabCursor={true}
               effect={"creative"}
               creativeEffect={{
@@ -50,38 +50,36 @@ const Projects = () => {
               pagination={{ clickable: true, dynamicBullets: true }}
               modules={[EffectCreative, Pagination]}
             >
-              {web.map((item, i) => {
-                return (
-                  <SwiperSlide key={i} className="projectItem">
-                    <div
-                      className="projectItemImage"
-                      style={{ backgroundImage: `url(${item.image})` }}
-                    ></div>
-                    <div className="projectItemInfo">
-                      <h1>{item.title}</h1>
-                      <p>{item.description}</p>
-                      <a href={item.path} target="_blank">
-                        Open the project
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                );
-              })}
+              {web.map((item, i) => (
+                <SwiperSlide key={i} className="project-item">
+                  <div
+                    className="project-item-image"
+                    style={{ backgroundImage: `url(${item.image})` }}
+                  ></div>
+                  <div className="project-item-info">
+                    <h1>{item.title}</h1>
+                    <p>{item.description}</p>
+                    <a href={item.path} target="_blank">
+                      Open the project
+                    </a>
+                  </div>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </m.div>
         <m.div
-          className="projectsInner"
+          className="projects-inner"
           variants={fadeIn("up", "tween", 0.75, 1)}
           initial="hidden"
           animate="show"
         >
-          <div className="fieldTitle">
+          <div className="field-title">
             <h1>Design</h1>
           </div>
-          <div className="fieldProjectList">
+          <div className="field-project-list">
             <Swiper
-              className="fieldProjectSlider"
+              className="field-project-slider"
               grabCursor={true}
               effect={"creative"}
               creativeEffect={{
@@ -100,38 +98,36 @@ const Projects = () => {
               pagination={{ clickable: true, dynamicBullets: true }}
               modules={[EffectCreative, Pagination]}
             >
-              {design.map((item, i) => {
-                return (
-                  <SwiperSlide key={i} className="projectItem">
-                    <div
-                      className="projectItemImage"
-                      style={{ backgroundImage: `url(${item.image})` }}
-                    ></div>
-                    <div className="projectItemInfo">
-                      <h1>{item.title}</h1>
-                      <p>{item.description}</p>
-                      <a href={item.path} target="_blank">
-                        Open the project
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                );
-              })}
+              {design.map((item, i) => (
+                <SwiperSlide key={i} className="project-item">
+                  <div
+                    className="project-item-image"
+                    style={{ backgroundImage: `url(${item.image})` }}
+                  ></div>
+                  <div className="project-item-info">
+                    <h1>{item.title}</h1>
+                    <p>{item.description}</p>
+                    <a href={item.path} target="_blank">
+                      Open the project
+                    </a>
+                  </div>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </m.div>
         <m.div
-          className="projectsInner"
+          className="projects-inner"
           variants={fadeIn("left", "tween", 0.75, 1)}
           initial="hidden"
           animate="show"
         >
-          <div className="fieldTitle">
+          <div className="field-title">
             <h1>Game</h1>
           </div>
-          <div className="fieldProjectList">
+          <div className="field-project-list">
             <Swiper
-              className="fieldProjectSlider"
+              className="field-project-slider"
               grabCursor={true}
               effect={"creative"}
               creativeEffect={{
@@ -150,23 +146,21 @@ const Projects = () => {
               pagination={{ clickable: true, dynamicBullets: true }}
               modules={[EffectCreative, Pagination]}
             >
-              {game.map((item, i) => {
-                return (
-                  <SwiperSlide key={i} className="projectItem">
-                    <div
-                      className="projectItemImage"
-                      style={{ backgroundImage: `url(${item.image})` }}
-                    ></div>
-                    <div className="projectItemInfo">
-                      <h1>{item.title}</h1>
-                      <p>{item.description}</p>
-                      <a href={item.path} target="_blank">
-                        Open the project
-                      </a>
-                    </div>
-                  </SwiperSlide>
-                );
-              })}
+              {game.map((item, i) => (
+                <SwiperSlide key={i} className="project-item">
+                  <div
+                    className="project-item-image"
+                    style={{ backgroundImage: `url(${item.image})` }}
+                  ></div>
+                  <div className="project-item-info">
+                    <h1>{item.title}</h1>
+                    <p>{item.description}</p>
+                    <a href={item.path} target="_blank">
+                      Open the project
+                    </a>
+                  </div>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </m.div>

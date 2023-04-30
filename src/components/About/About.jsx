@@ -11,67 +11,65 @@ const About = () => {
   return (
     <m.div className="about">
       <m.div
-        className="aboutLogo"
+        className="about-logo"
         variants={fadeIn("right", "tween", 0.75, 1)}
         initial="hidden"
         animate="show"
       >
         <img alt={logo[0].title} src={logo[0].icon} />
       </m.div>
-      <div className="aboutContainer">
+      <div className="about-container">
         <m.div
-          className="aboutMe"
+          className="about-me"
           variants={fadeIn("down", "tween", 0.75, 1)}
           initial="hidden"
           animate="show"
         >
-          <div className="aboutTitle">
+          <div className="about-title">
             <h1>About</h1>
           </div>
-          <div className="aboutInner">
+          <div className="about-inner">
             <p>
               Hello, I'm <span>Cristi Manea</span> and I make web applications,
               3D art for games and sometimes I build games.
             </p>
             <a
-              href="https://drive.google.com/file/d/1x30R-lrg9RqErI1hQQ9fW5zhgxSKXI3r/view?usp=sharing"
+              href="https://drive.google.com/file/d/1SKYSzmfFkZtZQy2mZN1uJ5qO6CpLebXi/view?usp=share_link"
               target="_blank"
             >
               Resume
             </a>
           </div>
         </m.div>
-        <div className="educationWork">
+        <div className="education-work">
           <m.div
             className="education"
             variants={fadeIn("up", "tween", 0.75, 1)}
             initial="hidden"
             animate="show"
           >
-            <div className="educationTitle">
+            <div className="education-title">
               <h1>Education and Training</h1>
             </div>
-            <div className="educationList">
+            <div className="education-list">
               <Swiper
-                className="educationSlider"
+                className="education-slider"
                 grabCursor={true}
                 modules={[Pagination]}
                 spaceBetween={25}
                 slidesPerView={1}
                 pagination={{ clickable: true, dynamicBullets: true }}
               >
-                {education.map((item, i) => {
-                  return (
-                    <SwiperSlide key={i} className={item.cName}>
-                      {item.icon}
-                      <h1>{item.title}</h1>
-                      <p>{item.university}</p>
-                      <p>{item.specialization}</p>
-                      <p>{item.adress}</p>
-                      <p>{item.date}</p>
-                    </SwiperSlide>
-                  );
-                })}
+                {education.map((item, i) => (
+                  <SwiperSlide key={i} className={item.cName}>
+                    {item.icon}
+                    <h1>{item.title}</h1>
+                    <p>{item.university}</p>
+                    <p>{item.specialization}</p>
+                    <p>{item.adress}</p>
+                    <p>{item.date}</p>
+                  </SwiperSlide>
+                ))}
               </Swiper>
             </div>
           </m.div>
@@ -81,30 +79,28 @@ const About = () => {
             initial="hidden"
             animate="show"
           >
-            <div className="workTitle">
+            <div className="work-title">
               <h1>Work Experience</h1>
             </div>
-            <div className="workList">
+            <div className="work-list">
               <Swiper
-                className="workSlider"
+                className="work-slider"
                 grabCursor={true}
                 modules={[Pagination]}
                 spaceBetween={25}
                 slidesPerView={1}
                 pagination={{ clickable: true, dynamicBullets: true }}
               >
-                {work.map((item, i) => {
-                  return (
-                    <SwiperSlide key={i} className={item.cName}>
-                      {item.icon}
-                      <h1>{item.title}</h1>
-                      <p>{item.company}</p>
-                      <p>{item.description}</p>
-                      <p>{item.adress}</p>
-                      <p>{item.date}</p>
-                    </SwiperSlide>
-                  );
-                })}
+                {work.map((item, i) => (
+                  <SwiperSlide key={i} className={item.cName}>
+                    {item.icon}
+                    <h1>{item.title}</h1>
+                    <p>{item.company}</p>
+                    <p>{item.description}</p>
+                    <p>{item.adress}</p>
+                    <p>{item.date}</p>
+                  </SwiperSlide>
+                ))}
               </Swiper>
             </div>
           </m.div>

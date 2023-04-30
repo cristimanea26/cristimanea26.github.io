@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <m.div className="contact">
       <m.div
-        className="contactTitle"
+        className="contact-title"
         variants={fadeIn("down", "tween", 0.75, 1)}
         initial="hidden"
         animate="show"
@@ -40,39 +40,35 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <h3>Get in touch</h3>
       </m.div>
-      <div className="contactContainer">
+      <div className="contact-container">
         <m.div
-          className="contactOptions"
+          className="contact-options"
           variants={fadeIn("right", "tween", 0.75, 1)}
           initial="hidden"
           animate="show"
         >
-          <div className="contactOptionsTop">
-            {contactA.map((item, i) => {
-              return (
-                <div key={i} className={item.cName}>
-                  <a href={item.path} target="_blank">
-                    {item.icon}
-                    <span>{item.title}</span>
-                  </a>
-                </div>
-              );
-            })}
+          <div className="contact-options-top">
+            {contactA.map((item, i) => (
+              <div key={i} className={item.cName}>
+                <a href={item.path} target="_blank">
+                  {item.icon}
+                  <span>{item.title}</span>
+                </a>
+              </div>
+            ))}
           </div>
-          <div className="contactOptionsBottom">
-            {contactB.map((item, i) => {
-              return (
-                <div key={i} className={item.cName}>
-                  <a href={item.path} target="_blank">
-                    {item.icon}
-                  </a>
-                </div>
-              );
-            })}
+          <div className="contact-options-bottom">
+            {contactB.map((item, i) => (
+              <div key={i} className={item.cName}>
+                <a href={item.path} target="_blank">
+                  {item.icon}
+                </a>
+              </div>
+            ))}
           </div>
         </m.div>
         <m.div
-          className="contactForm"
+          className="contact-form"
           variants={fadeIn("left", "tween", 0.75, 1)}
           initial="hidden"
           animate="show"

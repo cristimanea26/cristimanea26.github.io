@@ -8,15 +8,15 @@
   position: relative;
   z-index: 5;
 
-  .skillsTitle,
-  .skillsContainer {
+  .skills-title,
+  .skills-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2.5rem 0.5rem;
   }
 
-  .skillsTitle {
+  .skills-title {
     flex-flow: column wrap;
     text-align: center;
 
@@ -36,18 +36,18 @@
     }
   }
 
-  .skillsContainer {
+  .skills-container {
     flex-flow: row wrap;
 
-    .skillsTop,
-    .skillsBottom {
+    .skills-top,
+    .skills-bottom {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
     }
 
-    .skillsInner {
+    .skills-inner {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -71,7 +71,7 @@
         filter: blur(0);
       }
 
-      .techsTitle {
+      .techs-title {
         h1 {
           color: $colorF;
           font-family: $oleoScriptRegular;
@@ -80,7 +80,7 @@
         }
       }
 
-      .techsList {
+      .techs-list {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -166,14 +166,14 @@
 //* MEDIA QUERIES
 @media screen and (max-width: 1366px) {
   .skills {
-    .skillsTitle {
+    .skills-title {
       padding: 1.75rem 5rem 0.75rem 5rem;
     }
 
-    .skillsContainer {
+    .skills-container {
       padding: 0.75rem 0.5rem 1.5rem 0.5rem;
 
-      .skillsInner {
+      .skills-inner {
         width: 20rem;
       }
     }
@@ -182,7 +182,7 @@
 
 @media screen and (max-width: 768px) {
   .skills {
-    .skillsTitle {
+    .skills-title {
       padding: 0.5rem 2.5rem 0.75rem 2.5rem;
 
       h1 {
@@ -195,7 +195,7 @@
       }
     }
 
-    .skillsContainer {
+    .skills-container {
       padding: 0.75rem 0 1.5rem 0;
     }
   }
@@ -203,22 +203,22 @@
 
 @media screen and (max-width: 480px) {
   .skills {
-    .skillsTitle {
+    .skills-title {
       padding: 0.5rem 1.5rem 0.75rem 1.5rem;
     }
 
-    .skillsContainer {
-      .skillsInner {
+    .skills-container {
+      .skills-inner {
         width: 19rem;
         margin: 1rem 0;
 
-        .techsTitle {
+        .techs-title {
           h1 {
             font-size: 2rem;
           }
         }
 
-        .techsList {
+        .techs-list {
           .cSkill {
             width: 16rem;
 

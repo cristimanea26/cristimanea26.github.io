@@ -78,6 +78,16 @@ export const education = [
 
 export const work = [
   {
+    title: "Frontend Developer",
+    company: "Self-employed Web Developer",
+    description:
+      "Web development: Websites development using the latest technologies",
+    adress: "Targoviste, Romania",
+    date: "09/2022 - CURRENT",
+    icon: <SiIcons.SiOpenlayers />,
+    cName: "cWork",
+  },
+  {
     title: "Research Development Mechanical Engineer",
     company: "Arctic",
     description: "R&D: Development of washing machines",
@@ -289,7 +299,7 @@ export const webTechs = [
     cName: "cSkill",
   },
   {
-    title: "GITHUB",
+    title: "VERSION CONTROL GIT",
     icon: <SiIcons.SiGithub />,
     experience: "1 year",
     cName: "cSkill",

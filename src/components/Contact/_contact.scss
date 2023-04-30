@@ -8,7 +8,7 @@
   position: relative;
   z-index: 5;
 
-  .contactTitle {
+  .contact-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,22 +32,22 @@
     }
   }
 
-  .contactContainer {
+  .contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     padding: 2.5rem 0.5rem;
 
-    .contactOptions {
+    .contact-options {
       border-radius: 0.5rem 0 0 0.5rem;
       padding: 3.5rem;
       background-color: $colorAA;
       box-shadow: $boxShadow;
       z-index: 1;
 
-      .contactOptionsTop,
-      .contactOptionsBottom {
+      .contact-options-top,
+      .contact-options-bottom {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -87,7 +87,7 @@
       }
     }
 
-    .contactForm {
+    .contact-form {
       width: 35rem;
       border-radius: 0.5rem;
       padding: 2.5rem 3.5rem;
@@ -139,20 +139,20 @@
 //* MEDIA QUERIES
 @media screen and (max-width: 1366px) {
   .contact {
-    .contactTitle {
+    .contact-title {
       padding: 1.75rem 5rem;
     }
 
-    .contactContainer {
+    .contact-container {
       flex-flow: column wrap;
       padding: 0.75rem 0.5rem 2.5rem 0.5rem;
 
-      .contactOptions {
+      .contact-options {
         border-radius: 0.5rem;
         padding: 1.75rem;
       }
 
-      .contactForm {
+      .contact-form {
         width: 30rem;
         border-radius: 0 0 0.5rem 0.5rem;
         padding: 1.5rem 2.5rem;
@@ -163,7 +163,7 @@
 
 @media screen and (max-width: 768px) {
   .contact {
-    .contactTitle {
+    .contact-title {
       padding: 0.5rem 2.5rem;
 
       h1 {
@@ -175,10 +175,10 @@
         font-size: 1.5rem;
       }
     }
-    .contactContainer {
+    .contact-container {
       padding: 2rem 0 2.5rem 0;
 
-      .contactOptions {
+      .contact-options {
         padding: 1rem;
 
         .cContact {
@@ -198,7 +198,7 @@
         }
       }
 
-      .contactForm {
+      .contact-form {
         width: 25rem;
       }
     }
@@ -207,24 +207,24 @@
 
 @media screen and (max-width: 480px) {
   .contact {
-    .contactTitle {
+    .contact-title {
       padding: 0.5rem 1.5rem;
     }
 
-    .contactContainer {
+    .contact-container {
       width: 100%;
 
-      .contactOptions {
+      .contact-options {
         width: 100%;
         border-radius: 0;
         padding: 0.5rem;
 
-        .contactOptionsTop,
-        .contactOptionsBottom {
+        .contact-options-top,
+        .contact-options-bottom {
           margin: 0.5rem;
         }
 
-        .contactOptionsBottom {
+        .contact-options-bottom {
           flex-flow: row wrap;
         }
 
@@ -233,7 +233,7 @@
         }
       }
 
-      .contactForm {
+      .contact-form {
         width: 100%;
         border-radius: 0;
         padding: 0.5rem 1rem;
