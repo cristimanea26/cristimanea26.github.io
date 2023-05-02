@@ -40,7 +40,7 @@
     padding: 2.5rem 0.5rem;
 
     .contact-options {
-      border-radius: 0.5rem 0 0 0.5rem;
+      border-radius: 0.75rem 0 0 0.75rem;
       padding: 3.5rem;
       background-color: $colorAA;
       box-shadow: $boxShadow;
@@ -79,7 +79,7 @@
             height: 4.5rem;
             color: $colorF;
             background-color: $colorDD;
-            border-radius: 0.5rem;
+            border-radius: 0.75rem;
             padding: 0.75rem;
             margin: 1rem auto;
           }
@@ -89,7 +89,7 @@
 
     .contact-form {
       width: 35rem;
-      border-radius: 0.5rem;
+      border-radius: 0.75rem;
       padding: 2.5rem 3.5rem;
       background-color: $colorBB;
       box-shadow: $boxShadow;
@@ -105,7 +105,7 @@
         textarea {
           width: 100%;
           box-shadow: $boxShadow;
-          border-radius: 0.35rem;
+          border-radius: 0.5rem;
           padding: 1rem;
           margin: 1rem 0;
           resize: none;
@@ -122,7 +122,7 @@
           background-color: $colorEE;
           box-shadow: 0.3rem 0.3rem 0 0 $colorAA,
             inset 0.3rem 0.3rem 0 0 $colorAA;
-          border-radius: 0.5rem;
+          border-radius: 0.75rem;
           padding: 1rem;
           margin: 1rem 0;
 
@@ -148,13 +148,13 @@
       padding: 0.75rem 0.5rem 2.5rem 0.5rem;
 
       .contact-options {
-        border-radius: 0.5rem;
+        border-radius: 0.75rem;
         padding: 1.75rem;
       }
 
       .contact-form {
         width: 30rem;
-        border-radius: 0 0 0.5rem 0.5rem;
+        border-radius: 0 0 0.75rem 0.75rem;
         padding: 1.5rem 2.5rem;
       }
     }

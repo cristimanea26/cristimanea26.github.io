@@ -9,6 +9,7 @@ import bg from "../assets/images/web/bg.png";
 import rfwh from "../assets/images/web/rfwh.png";
 import dr from "../assets/images/web/dr.png";
 import tdl from "../assets/images/web/tdl.png";
+import ca from "../assets/images/web/ca.png";
 
 //* Design
 import gate from "../assets/images/design/01_gate.jpg";
@@ -157,6 +158,12 @@ export const contactB = [
 ];
 
 export const web = [
+  {
+    title: "Countries API",
+    image: ca,
+    description: "Web application developed to improve web knowledge.",
+    path: "https://cristimanea26.github.io/countriesAPIApp/",
+  },
   {
     title: "To Do List",
     image: tdl,

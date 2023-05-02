@@ -56,7 +56,7 @@
             justify-content: center;
             position: relative;
             height: 25rem;
-            border-radius: 0.75rem;
+            border-radius: 1rem;
             border: 0.25rem solid $colorA;
             box-shadow: $boxShadow;
             margin: 1rem 0 2rem 0;
@@ -144,7 +144,7 @@
                 background-color: $colorEE;
                 box-shadow: 0.3rem 0.3rem 0 0 $colorAA,
                   inset 0.3rem 0.3rem 0 0 $colorAA;
-                border-radius: 0.5rem;
+                border-radius: 0.75rem;
                 padding: 1rem;
                 transform: translateY(5rem);
                 opacity: 0;
