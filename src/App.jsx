@@ -6,15 +6,19 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 const App = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(false);
 
-  const TRACKING_ID = "UA-255062910-1";
+  const TRACKING_ID = "G-5FBZ21RZDF";
   ReactGA.initialize(TRACKING_ID);
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.send({
+    hitType: "pageview",
+    page: window.location.pathname + window.location.search,
+    title: "Personal Portfolio",
+  });
 
   useEffect(() => {
     setLoading(true);

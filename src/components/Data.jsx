@@ -79,17 +79,7 @@ export const education = [
 
 export const work = [
   {
-    title: "Frontend Developer",
-    company: "Self-employed Web Developer",
-    description:
-      "Web development: Websites development using the latest technologies",
-    adress: "Targoviste, Romania",
-    date: "09/2022 - CURRENT",
-    icon: <SiIcons.SiOpenlayers />,
-    cName: "cWork",
-  },
-  {
-    title: "Research Development Mechanical Engineer",
+    title: "System Design Engineer",
     company: "Arctic",
     description: "R&D: Development of washing machines",
     adress: "Ulmi, Romania",
@@ -98,7 +88,7 @@ export const work = [
     cName: "cWork",
   },
   {
-    title: "Research Development Mechanical Engineer",
+    title: "Mechanical Design Engineer",
     company: "SC METAPLAST SRL",
     description:
       "R&D: Development of plastic parts for the automotive and home appliance industry",
@@ -272,7 +262,7 @@ export const webTechs = [
   {
     title: "HTML",
     icon: <SiIcons.SiHtml5 />,
-    experience: "3 years",
+    experience: "5 years",
     cName: "cSkill",
   },
   {
@@ -284,7 +274,7 @@ export const webTechs = [
   {
     title: "SASS",
     icon: <SiIcons.SiSass />,
-    experience: "2 year",
+    experience: "2 years",
     cName: "cSkill",
   },
   {
@@ -377,13 +367,13 @@ export const otherTechs = [
   {
     title: "AUTOCAD",
     icon: <SiIcons.SiAutodesk />,
-    experience: "2 year",
+    experience: "2 years",
     cName: "cSkill",
   },
   {
     title: "CATIA",
     icon: <SiIcons.SiDassaultsystemes />,
-    experience: "2 year",
+    experience: "2 years",
     cName: "cSkill",
   },
 ];

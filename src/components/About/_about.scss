@@ -38,6 +38,7 @@
       justify-content: center;
       align-items: start;
       flex-flow: column wrap;
+      width: 70rem;
 
       .about-title {
         h1 {
@@ -52,7 +53,8 @@
           color: $colorF;
           font-family: $helveticaRegular;
           font-size: 1rem;
-          padding: 1rem 0;
+          padding: 0.5rem 0;
+          line-height: 1.5rem;
 
           span {
             font-family: $oleoScriptRegular;

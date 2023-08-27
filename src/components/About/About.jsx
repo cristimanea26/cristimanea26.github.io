@@ -30,11 +30,16 @@ const About = () => {
           </div>
           <div className="about-inner">
             <p>
-              Hello, I'm <span>Cristi Manea</span> and I make web applications,
-              3D art for games and sometimes I build games.
+              Hello, I'm <span>Cristi Manea</span> and I am a professional with
+              over six years of diversified experience in the IT, automotive and
+              home appliance industries. With an innovative vision and a
+              constant desire to learn, I have contributed to the development of
+              products and technologies in these dynamic industries. My strong
+              technical skills are matched by a passion for development, making
+              me a valuable team member in any endeavor.
             </p>
             <a
-              href="https://drive.google.com/file/d/19qZd8OtfR54XgrijzlLQtA3TwhDUEvpe/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TskFI7739wCqyCc98tMo7L0aFB-bGT7H/view?usp=drive_link"
               target="_blank"
             >
               Resume
