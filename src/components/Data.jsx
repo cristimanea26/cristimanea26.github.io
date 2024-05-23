@@ -79,7 +79,7 @@ export const education = [
 
 export const work = [
   {
-    title: "System Design Engineer",
+    title: "System Design Tehnician",
     company: "Arctic",
     description: "R&D: Development of washing machines",
     adress: "Ulmi, Romania",
