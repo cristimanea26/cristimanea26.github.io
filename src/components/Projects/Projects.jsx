@@ -1,7 +1,7 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 import { fadeIn } from "../Animations";
-import { web, design, game } from "../Data";
+import { web, design, other } from "../Data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCreative, Pagination } from "swiper";
 import "swiper/css";
@@ -123,7 +123,7 @@ const Projects = () => {
           animate="show"
         >
           <div className="field-title">
-            <h1>Game</h1>
+            <h1>Other</h1>
           </div>
           <div className="field-project-list">
             <Swiper
@@ -146,7 +146,7 @@ const Projects = () => {
               pagination={{ clickable: true, dynamicBullets: true }}
               modules={[EffectCreative, Pagination]}
             >
-              {game.map((item, i) => (
+              {other.map((item, i) => (
                 <SwiperSlide key={i} className="project-item">
                   <div
                     className="project-item-image"

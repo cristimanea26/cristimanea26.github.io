@@ -18,7 +18,7 @@
 
     h1,
     h3 {
-      font-family: $oleoScriptRegular;
+      font-family: $aptos;
       color: $colorF;
     }
 
@@ -42,7 +42,7 @@
     .contact-options {
       border-radius: 0.6rem 0 0 0.6rem;
       padding: 3.5rem;
-      background-color: $colorAA;
+      background-color: $colorDD;
       box-shadow: $boxShadow;
       z-index: 1;
 
@@ -63,13 +63,13 @@
         a {
           &:hover {
             svg {
-              box-shadow: inset 0 0 0 2.5rem $colorEE;
+              box-shadow: inset 0 0 1rem 0 $colorA;
             }
           }
 
           span {
             color: $colorF;
-            font-family: $helveticaRegular;
+            font-family: $robotoRegular;
             font-size: 1.5rem;
           }
 
@@ -78,7 +78,7 @@
             width: 4.5rem;
             height: 4.5rem;
             color: $colorF;
-            background-color: $colorDD;
+            background-color: $colorC;
             border-radius: 0.6rem;
             padding: 0.75rem;
             margin: 1rem auto;
@@ -91,7 +91,7 @@
       width: 35rem;
       border-radius: 0.6rem;
       padding: 2.5rem 3.5rem;
-      background-color: $colorBB;
+      background-color: $colorEE;
       box-shadow: $boxShadow;
       z-index: 2;
 
@@ -117,7 +117,7 @@
           text-align: center;
           width: 10rem;
           color: $colorF;
-          font-family: $helveticaRegular;
+          font-family: $robotoRegular;
           font-size: 1.5rem;
           background-color: $colorEE;
           box-shadow: 0.3rem 0.3rem 0 0 $colorAA,

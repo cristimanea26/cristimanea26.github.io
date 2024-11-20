@@ -10,6 +10,7 @@ import rfwh from "../assets/images/web/rfwh.png";
 import dr from "../assets/images/web/dr.png";
 import tdl from "../assets/images/web/tdl.png";
 import ca from "../assets/images/web/ca.png";
+import cc from "../assets/images/web/cc.png";
 
 //* Design
 import gate from "../assets/images/design/01_gate.jpg";
@@ -20,10 +21,10 @@ import cr from "../assets/images/design/05_cr.jpg";
 import sazrajh from "../assets/images/design/06_sazrajh.jpg";
 import nightcrackle from "../assets/images/design/07_nightcrackle.jpg";
 
-//* Game
-import tla from "../assets/images/game/tla.jpg";
-import bd from "../assets/images/game/bd.png";
-import md from "../assets/images/game/md.png";
+//* Other
+import tla from "../assets/images/other/tla.jpg";
+import bd from "../assets/images/other/bd.png";
+import md from "../assets/images/other/md.png";
 
 export const menuData = [
   {
@@ -80,16 +81,16 @@ export const education = [
 export const work = [
   {
     title: "System Design Tehnician",
-    company: "Arctic",
+    company: "Beko Romania",
     description: "R&D: Development of washing machines",
     adress: "Ulmi, Romania",
-    date: "11/2020 - CURRENT",
+    date: "11/2020 - 11/2024",
     icon: <SiIcons.SiOpenlayers />,
     cName: "cWork",
   },
   {
     title: "Mechanical Design Engineer",
-    company: "SC METAPLAST SRL",
+    company: "Metaplast Automotive Industry",
     description:
       "R&D: Development of plastic parts for the automotive and home appliance industry",
     adress: "Titu, Romania",
@@ -148,6 +149,12 @@ export const contactB = [
 ];
 
 export const web = [
+  {
+    title: "Crown Clothing",
+    image: cc,
+    description: "Web application developed to improve web knowledge.",
+    path: "https://crwnclothingapp.netlify.app/",
+  },
   {
     title: "Countries API",
     image: ca,
@@ -235,7 +242,7 @@ export const design = [
   },
 ];
 
-export const game = [
+export const other = [
   {
     title: "The Last Ancient",
     image: tla,
@@ -260,87 +267,86 @@ export const game = [
 
 export const webTechs = [
   {
-    title: "HTML",
+    title: "MICROSOFT VISUAL STUDIO CODE",
+    icon: <SiIcons.SiVisualstudiocode />,
+    cName: "cSkill",
+  },
+  {
+    title: "HTML5",
     icon: <SiIcons.SiHtml5 />,
-    experience: "5 years",
     cName: "cSkill",
   },
   {
-    title: "CSS",
+    title: "CSS3",
     icon: <SiIcons.SiCss3 />,
-    experience: "3 years",
-    cName: "cSkill",
-  },
-  {
-    title: "SASS",
-    icon: <SiIcons.SiSass />,
-    experience: "2 years",
     cName: "cSkill",
   },
   {
     title: "JAVASCRIPT",
     icon: <SiIcons.SiJavascript />,
-    experience: "2 years",
     cName: "cSkill",
   },
   {
     title: "REACT JS",
     icon: <SiIcons.SiReact />,
-    experience: "1 year",
+    cName: "cSkill",
+  },
+  {
+    title: "SASS",
+    icon: <SiIcons.SiSass />,
     cName: "cSkill",
   },
   {
     title: "SQL",
     icon: <SiIcons.SiDatabricks />,
-    experience: "1 year",
     cName: "cSkill",
   },
   {
-    title: "VERSION CONTROL GIT",
+    title: "GIT",
     icon: <SiIcons.SiGithub />,
-    experience: "1 year",
     cName: "cSkill",
   },
 ];
 
 export const designTechs = [
   {
+    title: "AUTOCAD",
+    icon: <SiIcons.SiAutocad />,
+    cName: "cSkill",
+  },
+  {
+    title: "AUTODESK MAYA",
+    icon: <SiIcons.SiAutodeskmaya />,
+    cName: "cSkill",
+  },
+  {
+    title: "CATIA",
+    icon: <SiIcons.SiDassaultsystemes />,
+    cName: "cSkill",
+  },
+  {
     title: "BLENDER",
     icon: <SiIcons.SiBlender />,
-    experience: "4 years",
     cName: "cSkill",
   },
   {
     title: "SUBSTANCE PAINTER",
     icon: <SiIcons.SiSparkasse />,
-    experience: "3 years",
     cName: "cSkill",
   },
   {
-    title: "PHOTOSHOP",
+    title: "ADOBE PHOTOSHOP",
     icon: <SiIcons.SiAdobephotoshop />,
-    experience: "3 years",
     cName: "cSkill",
   },
   {
     title: "KRITA",
     icon: <SiIcons.SiKrita />,
-    experience: "2 years",
     cName: "cSkill",
   },
-];
-
-export const gameTechs = [
   {
     title: "UNITY",
     icon: <SiIcons.SiUnity />,
-    experience: "3 years",
-    cName: "cSkill",
-  },
-  {
-    title: "C#",
-    icon: <SiIcons.SiCsharp />,
-    experience: "1 year",
     cName: "cSkill",
   },
 ];
@@ -348,32 +354,17 @@ export const gameTechs = [
 export const otherTechs = [
   {
     title: "MICROSOFT OFFICE SUITE",
-    icon: <SiIcons.SiMicrosoftoffice />,
-    experience: "10 years",
+    icon: <SiIcons.SiMicrosoft />,
     cName: "cSkill",
   },
   {
-    title: "MICROSOFT VISUAL STUDIO CODE",
-    icon: <SiIcons.SiVisualstudiocode />,
-    experience: "5 years",
+    title: "TEAMCENTER",
+    icon: <SiIcons.SiSiemens />,
     cName: "cSkill",
   },
   {
-    title: "AUTODESK MAYA",
-    icon: <SiIcons.SiMonster />,
-    experience: "1 year",
-    cName: "cSkill",
-  },
-  {
-    title: "AUTOCAD",
-    icon: <SiIcons.SiAutodesk />,
-    experience: "2 years",
-    cName: "cSkill",
-  },
-  {
-    title: "CATIA",
-    icon: <SiIcons.SiDassaultsystemes />,
-    experience: "2 years",
+    title: "SAP",
+    icon: <SiIcons.SiSap />,
     cName: "cSkill",
   },
 ];

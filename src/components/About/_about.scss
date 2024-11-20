@@ -43,7 +43,7 @@
       .about-title {
         h1 {
           color: $colorF;
-          font-family: $oleoScriptRegular;
+          font-family: $aptos;
           font-size: 2.5rem;
         }
       }
@@ -51,13 +51,13 @@
       .about-inner {
         p {
           color: $colorF;
-          font-family: $helveticaRegular;
+          font-family: $robotoRegular;
           font-size: 1rem;
           padding: 0.5rem 0;
           line-height: 1.5rem;
 
           span {
-            font-family: $oleoScriptRegular;
+            font-family: $aptos;
             font-size: 1.5rem;
           }
         }
@@ -67,15 +67,15 @@
           text-align: center;
           width: 10rem;
           color: $colorF;
-          font-family: $helveticaBold;
+          font-family: $robotoBold;
           font-size: 1rem;
-          background-color: $colorAA;
+          background-color: $colorEE;
           border-radius: 0.6rem;
           padding: 1rem;
           margin: 0.5rem 0 1rem 0;
 
           &:hover {
-            box-shadow: inset 0 0 0 2.5rem $colorEE;
+            box-shadow: inset 0 0 1.5rem 0 $colorA;
           }
         }
       }
@@ -98,7 +98,7 @@
         .education-title {
           h1 {
             color: $colorF;
-            font-family: $oleoScriptRegular;
+            font-family: $aptos;
             font-size: 2.5rem;
           }
         }
@@ -110,21 +110,21 @@
             align-items: start;
             flex-flow: column wrap;
             min-height: 15rem;
-            background-color: $colorAA;
+            background-color: $colorEE;
             border-radius: 0.6rem;
             padding: 1rem;
             margin: 1rem 0 2rem 0;
 
             h1 {
               font-size: 1.25rem;
-              font-family: $helveticaBold;
+              font-family: $robotoBold;
               color: $colorF;
               margin: 1rem 0 1rem 4rem;
             }
 
             p {
               font-size: 1rem;
-              font-family: $helveticaRegular;
+              font-family: $robotoRegular;
               color: $colorF;
               margin: 0.5rem 0;
             }
@@ -145,7 +145,7 @@
         .work-title {
           h1 {
             color: $colorF;
-            font-family: $oleoScriptRegular;
+            font-family: $aptos;
             font-size: 2.5rem;
           }
         }
@@ -157,21 +157,21 @@
             align-items: start;
             flex-flow: column wrap;
             min-height: 15rem;
-            background-color: $colorAA;
+            background-color: $colorEE;
             border-radius: 0.6rem;
             padding: 1rem;
             margin: 1rem 0 2rem 0;
 
             h1 {
               font-size: 1.25rem;
-              font-family: $helveticaBold;
+              font-family: $robotoBold;
               color: $colorF;
               margin: 1rem 0 1rem 4rem;
             }
 
             p {
               font-size: 1rem;
-              font-family: $helveticaRegular;
+              font-family: $robotoRegular;
               color: $colorF;
               margin: 0.5rem 0;
             }
@@ -211,7 +211,7 @@
 
       .swiper-pagination {
         .swiper-pagination-bullet-active {
-          background-color: $colorA;
+          background-color: $colorEE;
         }
       }
     }

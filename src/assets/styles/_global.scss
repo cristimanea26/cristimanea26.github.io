@@ -1,33 +1,31 @@
 @font-face {
-  font-family: "OleoScript Regular";
+  font-family: "Aptos";
   font-weight: normal;
   font-style: normal;
-  src: local("OleoScript-Regular"),
-    url("../fonts/OleoScript-Regular.ttf") format("truetype");
+  src: local("Aptos"), url("../fonts/Aptos.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Helvetica Italic";
+  font-family: "Roboto Italic";
   font-weight: italic;
   font-style: normal;
-  src: local("Helvetica-Italic"),
-    url("../fonts/Helvetica-Italic.ttf") format("truetype");
+  src: local("Roboto-Italic"),
+    url("../fonts/Roboto-Italic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Helvetica Regular";
+  font-family: "Roboto Regular";
   font-weight: normal;
   font-style: normal;
-  src: local("Helvetica-Regular"),
-    url("../fonts/Helvetica-Regular.ttf") format("truetype");
+  src: local("Roboto-Regular"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Helvetica Bold";
+  font-family: "Roboto Bold";
   font-weight: bold;
   font-style: normal;
-  src: local("Helvetica-Bold"),
-    url("../fonts/Helvetica-Bold.ttf") format("truetype");
+  src: local("Roboto-Bold"), url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
 
 * {
@@ -136,12 +134,12 @@ img {
 }
 
 .App {
-  background: rgb(247, 37, 133);
+  background: rgb(0, 166, 251);
   background: linear-gradient(
-    180deg,
-    rgba(247, 37, 133, 1) 0%,
-    rgba(58, 12, 163, 1) 50%,
-    rgba(76, 201, 240, 1) 100%
+    0deg,
+    rgba(0, 166, 251, 1) 0%,
+    rgba(0, 100, 148, 1) 50%,
+    rgba(5, 25, 35, 1) 100%
   );
   -webkit-animation: theme 21s linear infinite;
   animation: theme 21s linear infinite;

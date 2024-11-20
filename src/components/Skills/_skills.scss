@@ -23,7 +23,7 @@
     h1,
     h3 {
       color: $colorF;
-      font-family: $oleoScriptRegular;
+      font-family: $aptos;
     }
 
     h1 {
@@ -39,28 +39,19 @@
   .skills-container {
     flex-flow: row wrap;
 
-    .skills-top,
-    .skills-bottom {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-    }
-
     .skills-inner {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: column wrap;
       width: 22rem;
-      height: 28rem;
+      height: 30rem;
       border-radius: 0.6rem;
-      background-color: $colorAA;
+      background-color: $colorEE;
       padding: 1rem;
       margin: 1rem;
       cursor: pointer;
-      box-shadow: $boxShadow;
-      filter: blur(0.5rem);
+      filter: blur(0.25rem);
       -webkit-transition: $transitionTime;
       -moz-transition: $transitionTime;
       -ms-transition: $transitionTime;
@@ -69,12 +60,13 @@
 
       &:hover {
         filter: blur(0);
+        box-shadow: inset 0 0 1.5rem 0 $colorA;
       }
 
       .techs-title {
         h1 {
           color: $colorF;
-          font-family: $oleoScriptRegular;
+          font-family: $aptos;
           font-size: 2.5rem;
           margin: 0 0 1rem 0;
         }
@@ -96,28 +88,13 @@
           padding: 0.5rem;
           margin: 0.25rem 0;
           border-radius: 0.4rem;
-          background-color: $colorDD;
+          background-color: $colorC;
           box-shadow: $boxShadow;
-
-          &:hover {
-            h1 {
-              background-color: $colorEE;
-              opacity: 1;
-            }
-
-            h2 {
-              opacity: 0;
-            }
-
-            svg {
-              opacity: 0;
-            }
-          }
 
           h1,
           h2 {
             color: $colorF;
-            font-family: $helveticaRegular;
+            font-family: $robotoRegular;
             font-size: 0.85rem;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
@@ -175,6 +152,12 @@
 
       .skills-inner {
         width: 20rem;
+
+        .techs-title {
+          h1 {
+            font-size: 2rem;
+          }
+        }
       }
     }
   }
@@ -197,6 +180,18 @@
 
     .skills-container {
       padding: 0.75rem 0 1.5rem 0;
+
+      .skills-inner {
+        &:hover {
+          box-shadow: inset 0 0 1rem 0 $colorA;
+        }
+
+        .techs-title {
+          h1 {
+            font-size: 1.5rem;
+          }
+        }
+      }
     }
   }
 }
@@ -214,7 +209,7 @@
 
         .techs-title {
           h1 {
-            font-size: 2rem;
+            font-size: 1.25rem;
           }
         }
 
@@ -222,7 +217,6 @@
           .cSkill {
             width: 16rem;
 
-            h1,
             h2 {
               font-size: 0.75rem;
             }

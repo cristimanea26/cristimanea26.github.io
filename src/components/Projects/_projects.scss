@@ -22,7 +22,7 @@
 
     h1 {
       font-size: 5rem;
-      font-family: $oleoScriptRegular;
+      font-family: $aptos;
       color: $colorF;
     }
   }
@@ -39,7 +39,7 @@
 
         h1 {
           font-size: 2.5rem;
-          font-family: $oleoScriptRegular;
+          font-family: $aptos;
           color: $colorF;
         }
       }
@@ -57,7 +57,7 @@
             position: relative;
             height: 25rem;
             border-radius: 0.8rem;
-            border: 0.2rem solid $colorA;
+            border: 0.2rem solid $colorEE;
             box-shadow: $boxShadow;
             margin: 1rem 0 2rem 0;
 
@@ -106,7 +106,7 @@
 
               h1 {
                 color: $colorF;
-                font-family: $helveticaRegular;
+                font-family: $robotoRegular;
                 font-size: 2rem;
                 text-align: center;
                 width: 100%;
@@ -118,7 +118,7 @@
 
               p {
                 color: $colorF;
-                font-family: $helveticaRegular;
+                font-family: $robotoRegular;
                 font-size: 1rem;
                 display: -webkit-box;
                 -webkit-line-clamp: 4;
@@ -139,10 +139,10 @@
                 text-align: center;
                 width: 15rem;
                 color: $colorF;
-                font-family: $helveticaRegular;
+                font-family: $robotoRegular;
                 font-size: 1.5rem;
                 background-color: $colorEE;
-                box-shadow: 0.3rem 0.3rem 0 0 $colorAA,
+                box-shadow: 0.3rem 0.3rem 0 0 $colorBB,
                   inset 0.3rem 0.3rem 0 0 $colorAA;
                 border-radius: 0.6rem;
                 padding: 1rem;
@@ -156,7 +156,7 @@
 
                 &:hover {
                   background-color: $colorA;
-                  box-shadow: 0 0 0 0 $colorAA, inset 6rem 3rem 0 0 $colorAA;
+                  box-shadow: 0 0 0 0 $colorDD, inset 6rem 3rem 0 0 $colorAA;
                 }
               }
             }
@@ -187,7 +187,7 @@
 
       .swiper-pagination {
         .swiper-pagination-bullet-active {
-          background-color: $colorA;
+          background-color: $colorEE;
         }
       }
     }
@@ -208,6 +208,10 @@
       .projects-inner {
         .field-title {
           margin: 1.5rem 0 0 0;
+
+          h1 {
+            font-size: 2rem;
+          }
         }
 
         .field-project-list {
@@ -253,6 +257,12 @@
       .projects-inner {
         width: 23rem;
 
+        .field-title {
+          h1 {
+            font-size: 1.5rem;
+          }
+        }
+
         .field-project-list {
           .field-project-slider {
             .project-item {
@@ -278,7 +288,7 @@
 
         .field-title {
           h1 {
-            font-size: 2rem;
+            font-size: 1.25rem;
           }
         }
       }

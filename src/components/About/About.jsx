@@ -39,7 +39,7 @@ const About = () => {
               me a valuable team member in any endeavor.
             </p>
             <a
-              href="https://drive.google.com/file/d/1YYEASbaVFEwfs-oGS5MrWeIqhEIBb2TE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1R8xMsIeaBRubTcuB6U0HcgVQROe5dstp/view?usp=sharing"
               target="_blank"
             >
               Resume
