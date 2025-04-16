@@ -22,9 +22,9 @@ import sazrajh from "../assets/images/design/06_sazrajh.jpg";
 import nightcrackle from "../assets/images/design/07_nightcrackle.jpg";
 
 //* Other
-import tla from "../assets/images/other/tla.jpg";
-import bd from "../assets/images/other/bd.png";
-import md from "../assets/images/other/md.png";
+import tla from "../assets/images/academics/tla.jpg";
+import bd from "../assets/images/academics/bd.png";
+import md from "../assets/images/academics/md.png";
 
 export const menuData = [
   {
@@ -127,12 +127,12 @@ export const contactA = [
 
 export const contactB = [
   {
-    path: "https://www.facebook.com/dumitrucristinelmanea/",
+    path: "https://www.facebook.com/dumitrucristinelmanea",
     icon: <SiIcons.SiFacebook />,
     cName: "cContact",
   },
   {
-    path: "https://www.linkedin.com/in/dumitrucristinelmanea/",
+    path: "https://www.linkedin.com/in/dumitrucristinelmanea",
     icon: <SiIcons.SiLinkedin />,
     cName: "cContact",
   },
@@ -242,7 +242,7 @@ export const design = [
   },
 ];
 
-export const other = [
+export const academics = [
   {
     title: "The Last Ancient",
     image: tla,

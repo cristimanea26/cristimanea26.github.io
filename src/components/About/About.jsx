@@ -26,19 +26,20 @@ const About = () => {
           animate="show"
         >
           <div className="about-title">
-            <h1>About</h1>
+            <h1>Professional Summary</h1>
           </div>
           <div className="about-inner">
             <p>
-              I'm a driven professional with over 7 years of experience across
-              software development, automotive and home appliance industries.
-              I'm always on the lookout for opportunities to learn, grow and
-              take on meaningful work. With a solid mix of tech skills and
-              hands-on engineering experience, I enjoy being part of teams that
-              build cool, useful things and push ideas forward.
+              Hello, I'm <span>Cristi Manea</span> and I'm a driven professional
+              with over 6 years of experience across software development,
+              automotive and home appliance industries. I'm always on the
+              lookout for opportunities to learn, grow and take on meaningful
+              work. With a solid mix of tech skills and hands-on engineering
+              experience, I enjoy being part of teams that build cool, useful
+              things and push ideas forward.
             </p>
             <a
-              href="https://drive.google.com/file/d/1M3_iH-Lh8myzbiIfDQeeh-WzL_tqgqCo/view?usp=drive_link"
+              href="https://drive.google.com/file/d/14pN2hDVlVLmMHzwu-fT6BL0qDhHgr1S_/view?usp=drive_link"
               target="_blank"
             >
               Resume
