@@ -127,12 +127,12 @@ export const contactA = [
 
 export const contactB = [
   {
-    path: "https://www.facebook.com/cristi.manea.35325/",
+    path: "https://www.facebook.com/dumitrucristinelmanea/",
     icon: <SiIcons.SiFacebook />,
     cName: "cContact",
   },
   {
-    path: "https://www.linkedin.com/in/cristi-manea-3126a5172/",
+    path: "https://www.linkedin.com/in/dumitrucristinelmanea/",
     icon: <SiIcons.SiLinkedin />,
     cName: "cContact",
   },

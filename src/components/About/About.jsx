@@ -30,16 +30,15 @@ const About = () => {
           </div>
           <div className="about-inner">
             <p>
-              Hello, I'm <span>Cristi Manea</span> and I am a professional with
-              over six years of diversified experience in the IT, automotive and
-              home appliance industries. With an innovative vision and a
-              constant desire to learn, I have contributed to the development of
-              products and technologies in these dynamic industries. My strong
-              technical skills are matched by a passion for development, making
-              me a valuable team member in any endeavor.
+              I'm a driven professional with over 7 years of experience across
+              software development, automotive and home appliance industries.
+              I'm always on the lookout for opportunities to learn, grow and
+              take on meaningful work. With a solid mix of tech skills and
+              hands-on engineering experience, I enjoy being part of teams that
+              build cool, useful things and push ideas forward.
             </p>
             <a
-              href="https://drive.google.com/file/d/1R8xMsIeaBRubTcuB6U0HcgVQROe5dstp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1M3_iH-Lh8myzbiIfDQeeh-WzL_tqgqCo/view?usp=drive_link"
               target="_blank"
             >
               Resume
