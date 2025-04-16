@@ -80,7 +80,7 @@ export const education = [
 
 export const work = [
   {
-    title: "System Design Tehnician",
+    title: "System Design Technician",
     company: "Beko Romania",
     description: "R&D: Development of washing machines",
     adress: "Ulmi, Romania",
