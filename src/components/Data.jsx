@@ -61,7 +61,7 @@ export const education = [
     title: "Master's degree",
     university: "Valahia University of Targoviste",
     specialization:
-      "Systems engineering: Advanced Automation, Production and Industrial Informatics",
+      "Systems Engineering: Advanced Automation, Production and Industrial Informatics",
     adress: "Targoviste, Romania",
     date: "01/10/2018 - 08/07/2020",
     icon: <SiIcons.SiInternetarchive />,
@@ -70,7 +70,7 @@ export const education = [
   {
     title: "Bachelor's degree",
     university: "Valahia University of Targoviste",
-    specialization: "Systems engineering: Automation and Applied Informatics",
+    specialization: "Systems Engineering: Automation and Applied Informatics",
     adress: "Targoviste, Romania",
     date: "01/10/2014 - 20/06/2018",
     icon: <SiIcons.SiInternetarchive />,
