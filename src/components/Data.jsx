@@ -102,7 +102,7 @@ export const work = [
     title: "Web Developer",
     company: "KonsultHCS",
     description:
-      "Web development: Websites development based on specific templates using a custom CMS",
+      "Web Development: Websites development based on specific templates using a custom CMS",
     adress: "Targoviste, Romania",
     date: "06/2016 - 05/2017",
     icon: <SiIcons.SiOpenlayers />,
