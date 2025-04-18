@@ -39,7 +39,7 @@ const About = () => {
               things and push ideas forward.
             </p>
             <a
-              href="https://drive.google.com/file/d/14pN2hDVlVLmMHzwu-fT6BL0qDhHgr1S_/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1a2HQVMgLWbuKgJ4VJ5aUpCrzugaMcjl0/view?usp=drive_link"
               target="_blank"
             >
               Resume
