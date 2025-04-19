@@ -20,6 +20,7 @@ import vanquiser from "../assets/images/design/04_vanquiser.jpg";
 import cr from "../assets/images/design/05_cr.jpg";
 import sazrajh from "../assets/images/design/06_sazrajh.jpg";
 import nightcrackle from "../assets/images/design/07_nightcrackle.jpg";
+import remorse from "../assets/images/design/08_remorse.jpg";
 
 //* Other
 import tla from "../assets/images/academics/tla.jpg";
@@ -203,6 +204,13 @@ export const design = [
     description:
       "Personal project inspired by League of Legends and House of the Dragon TV series.",
     path: "https://www.artstation.com/artwork/wJK6ng",
+  },
+  {
+    title: "Remorse",
+    image: remorse,
+    description:
+      "Personal project inspired by concept art of Guillaume T. Delbarre.",
+    path: "https://www.artstation.com/artwork/BkJ4qr",
   },
   {
     title: "Nightcrackle",
