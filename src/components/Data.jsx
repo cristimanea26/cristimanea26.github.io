@@ -77,6 +77,16 @@ export const education = [
     icon: <SiIcons.SiInternetarchive />,
     cName: "cEducation",
   },
+  {
+    title: "Internship",
+    university: "AMC Ro Studio",
+    specialization:
+      "Creation of next-gen 3D models(modeling, sculpting and texturing) for an island",
+    adress: "Bucharest, Romania",
+    date: "19/06/2014 - 14/07/2018",
+    icon: <SiIcons.SiInternetarchive />,
+    cName: "cEducation",
+  },
 ];
 
 export const work = [
