@@ -213,16 +213,16 @@ export const design = [
     path: "https://www.artstation.com/artwork/BkJ4qr",
   },
   {
-    title: "Nightcrackle",
-    image: nightcrackle,
-    description: "Personal project inspired by Demon Slayer.",
-    path: "https://www.artstation.com/artwork/r9q51G",
-  },
-  {
     title: "Crimson Ronin",
     image: cr,
     description: "Character created during the Crimson Ronin course.",
     path: "https://www.artstation.com/artwork/YK6eQP",
+  },
+  {
+    title: "Nightcrackle",
+    image: nightcrackle,
+    description: "Personal project inspired by Demon Slayer.",
+    path: "https://www.artstation.com/artwork/r9q51G",
   },
   {
     title: "Vanquiser",
