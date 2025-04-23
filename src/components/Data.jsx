@@ -83,7 +83,7 @@ export const education = [
     specialization:
       "Creation of next-gen 3D models(modeling, sculpting and texturing) for an island",
     adress: "Bucharest, Romania",
-    date: "19/06/2014 - 14/07/2018",
+    date: "19/06/2017 - 14/07/2017",
     icon: <SiIcons.SiInternetarchive />,
     cName: "cEducation",
   },
