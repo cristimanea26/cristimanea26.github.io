@@ -91,7 +91,27 @@ export const education = [
 
 export const work = [
   {
-    title: "System Design Technician",
+    title: "Mechanical Engineer",
+    company: "SC IROMAD EXPERT SRL",
+    description:
+      "Production: Machining and production of parts for the mechanical engineering, machine manufacturing and metal structures industries",
+    adress: "Targoviste, Romania",
+    date: "02/2026 - Current",
+    icon: <SiIcons.SiOpenlayers />,
+    cName: "cWork",
+  },
+  {
+    title: "Automation Engineer",
+    company: "Trei Brutari",
+    description:
+      "Maintenance: Performing preventive and corrective maintenance according to established plans",
+    adress: "Targoviste, Romania",
+    date: "05/2025 - 01/2026",
+    icon: <SiIcons.SiOpenlayers />,
+    cName: "cWork",
+  },
+  {
+    title: "System Engineer / Technician",
     company: "Beko Romania",
     description: "R&D: Development of washing machines",
     adress: "Ulmi, Romania",
@@ -100,7 +120,7 @@ export const work = [
     cName: "cWork",
   },
   {
-    title: "Mechanical Design Engineer",
+    title: "Mechanical Engineer",
     company: "Metaplast Automotive Industry",
     description:
       "R&D: Development of plastic parts for the automotive and home appliance industry",
