@@ -41,7 +41,7 @@ const About = () => {
               diverse technical environments.
             </p>
             <a
-              href="https://drive.google.com/file/d/12s2g6iaY8wh3PuYm86IzPEN_cLN46Y4q/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1Beit4IpKcr4ec46RIsPEQPP8-0gw7_qK/view?usp=drive_link"
               target="_blank"
             >
               Resume
