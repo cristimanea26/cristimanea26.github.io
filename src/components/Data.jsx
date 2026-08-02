@@ -111,7 +111,7 @@ export const work = [
     cName: "cWork",
   },
   {
-    title: "System Engineer / Technician",
+    title: "System Technician",
     company: "Beko Romania",
     description: "R&D: Development of washing machines",
     adress: "Ulmi, Romania",
